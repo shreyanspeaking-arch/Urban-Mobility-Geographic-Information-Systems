@@ -39,8 +39,8 @@ Counts the healthcare facilities in every ward of a city, using OpenStreetMap da
 **How it works**
 
 1. The user enters the name of a ward-boundary file, such as a `.gpkg` file from the [Input gpkg files](https://github.com/shreyanspeaking-arch/Urban-Mobility-Geographic-Information-Systems/tree/Input-gpkg-files) branch. The program lists the file's columns and asks which one holds the ward name or number. If the file has no `geometry` column, it also asks which column holds the ward shapes.
-2. All healthcare facilities inside the wards are downloaded from OpenStreetMap with `osmnx`: places tagged as a clinic, dentist, doctor's practice, hospital or nursing home.
-3. Each facility is matched to the ward it lies within, and the facilities in each ward are counted. A facility whose outline crosses a ward boundary is not counted in either ward.
+2. All healthcare facilities inside the wards are downloaded from OpenStreetMap with `osmnx`: places tagged as a clinic, dentist, doctor's practice, hospital or nursing home under either the `amenity` or the `healthcare` key, so a facility is found whichever way it was mapped.
+3. Each facility is reduced to a single point that is guaranteed to lie inside its shape, so a hospital mapped as a building outline that crosses a ward boundary is still counted. Each point is matched to the ward it falls in; a point lying exactly on the boundary between two wards is counted in only one of them. The facilities in each ward are then counted.
 4. The wards are projected to the local UTM zone, chosen automatically for the city, and the area of each ward is computed in km². The density is the number of facilities divided by the area.
 5. The program draws a map of the wards shaded by the number of healthcare facilities per km², with the ward boundaries outlined.
 
