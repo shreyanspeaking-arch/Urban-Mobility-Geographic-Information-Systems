@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🎓 Density of Education Facilities per Ward
+# 🎓 Ward Educational Institutions
 
 **A branch of [Urban Mobility Geographic Information Systems](https://github.com/shreyanspeaking-arch/Urban-Mobility-Geographic-Information-Systems), a collection of Python programs that map and measure the wards of Indian cities.**
 
@@ -19,7 +19,7 @@ The number and density of educational institutes show how evenly education is sp
 ## ⚙️ Getting started
 
 ```bash
-git clone -b Density-of-Education-Facilities-per-Ward --single-branch https://github.com/shreyanspeaking-arch/Urban-Mobility-Geographic-Information-Systems.git
+git clone -b Ward-Educational-Institutions --single-branch https://github.com/shreyanspeaking-arch/Urban-Mobility-Geographic-Information-Systems.git
 cd Urban-Mobility-Geographic-Information-Systems
 curl -LO https://github.com/shreyanspeaking-arch/Urban-Mobility-Geographic-Information-Systems/raw/Input-gpkg-files/kolkata_wards_141.gpkg
 pip install geopandas osmnx pandas numpy matplotlib openpyxl
