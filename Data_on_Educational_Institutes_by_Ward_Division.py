@@ -1,4 +1,4 @@
-=import geopandas as gpd
+import geopandas as gpd
 import osmnx as ox
 import numpy as np
 import sys
