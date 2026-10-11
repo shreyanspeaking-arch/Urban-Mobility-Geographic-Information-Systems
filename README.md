@@ -21,7 +21,7 @@ Road density is the total length of roads in an area divided by the size of that
 ```bash
 git clone -b Ward-Road-Density --single-branch https://github.com/shreyanspeaking-arch/Urban-Mobility-Geographic-Information-Systems.git
 cd Urban-Mobility-Geographic-Information-Systems
-curl -LO https://github.com/shreyanspeaking-arch/Urban-Mobility-Geographic-Information-Systems/raw/Input-gpkg-files/mumbai_electoral_wards_2017.gpkg
+curl -LO https://github.com/shreyanspeaking-arch/Urban-Mobility-Geographic-Information-Systems/raw/Input-gpkg-files/kolkata_wards_141.gpkg
 pip install geopandas osmnx pandas numpy matplotlib openpyxl
 python Road_Density_per_Electoral_Ward.py
 ```
@@ -48,12 +48,12 @@ Estimates the road density of every ward in a city, using the drivable road netw
 
 | Input | Output |
 |---|---|
-| [`mumbai_electoral_wards_2017.gpkg`](https://github.com/shreyanspeaking-arch/Urban-Mobility-Geographic-Information-Systems/blob/Input-gpkg-files/mumbai_electoral_wards_2017.gpkg) | [`mumbai.xlsx`](./mumbai.xlsx)<br>[`mumbai.png`](./mumbai.png) |
+| [`kolkata_wards_141.gpkg`](https://github.com/shreyanspeaking-arch/Urban-Mobility-Geographic-Information-Systems/blob/Input-gpkg-files/kolkata_wards_141.gpkg) | [`kolkata_road_density.xlsx`](./kolkata_road_density.xlsx)<br>[`Kolkata Road Density.png`](./Kolkata%20Road%20Density.png) |
 
 **🗺️ Sample map**
 
 <p align="center">
-  <img src="./mumbai.png" alt="Mumbai wards shaded by road density" width="720">
+  <img src="./Kolkata%20Road%20Density.png" alt="Kolkata wards shaded by road density" width="720">
 </p>
 
 ---
