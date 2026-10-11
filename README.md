@@ -39,7 +39,7 @@ Counts the educational institutes in every ward of a city, using OpenStreetMap d
 **How it works**
 
 1. The user enters the name of a ward-boundary file, such as a `.gpkg` file from the [Input gpkg files](https://github.com/shreyanspeaking-arch/Urban-Mobility-Geographic-Information-Systems/tree/Input-gpkg-files) branch. The program lists the file's columns and asks which one holds the ward name or number. If the file has no `geometry` column, it also asks which column holds the ward shapes.
-2. All educational institutes inside the wards are downloaded from OpenStreetMap with `osmnx`: places tagged as a kindergarten, school, college, university, research institute or training centre.
+2. All educational institutes inside the wards are downloaded from OpenStreetMap with `osmnx`: places tagged as a kindergarten, school, college, university, research institute or training centre, together with land marked for educational use (`landuse=education`), such as school and college campuses.
 3. Each facility is reduced to a single point that is guaranteed to lie inside its shape, so a campus mapped as an outline that crosses a ward boundary is still counted. Each point is matched to the ward it falls in; a point lying exactly on the boundary between two wards is counted in only one of them. The educational institutes in each ward are then counted.
 4. The wards are projected to the local UTM zone, chosen automatically for the city, and the area of each ward is computed in km². The density is the number of educational institutes divided by the area.
 5. The user enters a name for the output file (without `.xlsx`). The program saves each ward's `Count`, `Area (in km2)` and `Density` (per km²) to that Excel file.
@@ -49,12 +49,12 @@ Counts the educational institutes in every ward of a city, using OpenStreetMap d
 
 | Input | Output |
 |---|---|
-| [`kolkata_wards_141.gpkg`](https://github.com/shreyanspeaking-arch/Urban-Mobility-Geographic-Information-Systems/blob/Input-gpkg-files/kolkata_wards_141.gpkg) | [`Kolkata_Educational_Institutions_by_Ward.xlsx`](./Kolkata_Educational_Institutions_by_Ward.xlsx)<br>[`Kolkata Educational Institutes by Number in each Ward.png`](./Kolkata%20Educational%20Institutes%20by%20Number%20in%20each%20Ward.png)<br>[`Kolkata Educational Facilities by Ward Area.png`](./Kolkata%20Educational%20Facilities%20by%20Ward%20Area.png) |
+| [`kolkata_wards_141.gpkg`](https://github.com/shreyanspeaking-arch/Urban-Mobility-Geographic-Information-Systems/blob/Input-gpkg-files/kolkata_wards_141.gpkg) | [`Kolkata_Educational_Institutions_by_Ward.xlsx`](./Kolkata_Educational_Institutions_by_Ward.xlsx)<br>[`Kolkata Healthcare Facilities by Number in each Ward.png`](./Kolkata%20Healthcare%20Facilities%20by%20Number%20in%20each%20Ward.png)<br>[`Kolkata Educational Facilities by Ward Area.png`](./Kolkata%20Educational%20Facilities%20by%20Ward%20Area.png) |
 
 **🗺️ Sample maps**
 
 <p align="center">
-  <img src="./Kolkata%20Educational%20Institutes%20by%20Number%20in%20each%20Ward.png" alt="Kolkata wards coloured by the number of educational institutes" width="720">
+  <img src="./Kolkata%20Healthcare%20Facilities%20by%20Number%20in%20each%20Ward.png" alt="Kolkata wards coloured by the number of educational institutes" width="720">
 </p>
 
 <p align="center">
