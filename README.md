@@ -2,7 +2,7 @@
 
 # 🗂️ Input gpkg files
 
-**A branch of [Urban Mobility GIS](https://github.com/shreyanspeaking-arch/Urban-Mobility-GIS), a collection of Python programs that map and measure the wards of Indian cities.**
+**A branch of [Urban Mobility Geographic Information Systems](https://github.com/shreyanspeaking-arch/Urban-Mobility-Geographic-Information-Systems), a collection of Python programs that map and measure the wards of Indian cities.**
 
 ![Format](https://img.shields.io/badge/format-GeoPackage-2ea44f) ![Cities](https://img.shields.io/badge/cities-8-purple) ![CRS](https://img.shields.io/badge/CRS-EPSG%3A4326-lightgrey)
 
@@ -30,15 +30,15 @@ When a program asks for the column that contains the spatial geometry of the war
 Download a single file into the folder of the program you want to run:
 
 ```bash
-curl -LO https://github.com/shreyanspeaking-arch/Urban-Mobility-GIS/raw/Input-gpkg-files/kolkata_wards_141.gpkg
+curl -LO https://github.com/shreyanspeaking-arch/Urban-Mobility-Geographic-Information-Systems/raw/Input-gpkg-files/kolkata_wards_141.gpkg
 ```
 
 or clone the whole branch:
 
 ```bash
-git clone -b Input-gpkg-files --single-branch https://github.com/shreyanspeaking-arch/Urban-Mobility-GIS.git
+git clone -b Input-gpkg-files --single-branch https://github.com/shreyanspeaking-arch/Urban-Mobility-Geographic-Information-Systems.git
 ```
 
 ---
 
-<div align="center"><sub>📚 <a href="https://github.com/shreyanspeaking-arch/Urban-Mobility-GIS">Back to all topics</a></sub></div>
+<div align="center"><sub>📚 <a href="https://github.com/shreyanspeaking-arch/Urban-Mobility-Geographic-Information-Systems">Back to all topics</a></sub></div>
