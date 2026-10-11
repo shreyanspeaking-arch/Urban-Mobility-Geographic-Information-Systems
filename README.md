@@ -23,7 +23,7 @@ git clone -b Ward-Healthcare-Facilities --single-branch https://github.com/shrey
 cd Urban-Mobility-Geographic-Information-Systems
 curl -LO https://github.com/shreyanspeaking-arch/Urban-Mobility-Geographic-Information-Systems/raw/Input-gpkg-files/kolkata_wards_141.gpkg
 pip install geopandas osmnx pandas numpy matplotlib openpyxl
-python Data_on_Healthcare_Facilities_by_Ward_Division
+python Data_on_Healthcare_Facilities_by_Ward_Division.py
 ```
 
 Every program is interactive: it asks for its inputs one at a time in the terminal, then saves the results to an `.xlsx` file and shows its maps. Input files for 8 cities are on the [Input gpkg files](https://github.com/shreyanspeaking-arch/Urban-Mobility-Geographic-Information-Systems/tree/Input-gpkg-files) branch. This program also needs an internet connection, because it downloads the healthcare facilities from OpenStreetMap.
@@ -32,14 +32,14 @@ Every program is interactive: it asks for its inputs one at a time in the termin
 
 ## Data on Healthcare Facilities by Ward Division
 
-📄 **File:** [`Data_on_Healthcare_Facilities_by_Ward_Division`](./Data_on_Healthcare_Facilities_by_Ward_Division)
+📄 **File:** [`Data_on_Healthcare_Facilities_by_Ward_Division.py`](./Data_on_Healthcare_Facilities_by_Ward_Division.py)
 
 Counts the healthcare facilities in every ward of a city, using OpenStreetMap data, works out how many there are per km² of each ward, saves the results to Excel, and draws two choropleth maps: one of the number of healthcare facilities in each ward and one of their density.
 
 **How it works**
 
 1. The user enters the name of a ward-boundary file, such as a `.gpkg` file from the [Input gpkg files](https://github.com/shreyanspeaking-arch/Urban-Mobility-Geographic-Information-Systems/tree/Input-gpkg-files) branch. The program lists the file's columns and asks which one holds the ward name or number. If the file has no `geometry` column, it also asks which column holds the ward shapes.
-2. All healthcare facilities inside the wards are downloaded from OpenStreetMap with `osmnx`: places tagged as a clinic, dentist, doctor's practice, hospital or nursing home under either the `amenity` or the `healthcare` key, so a facility is found whichever way it was mapped.
+2. All healthcare facilities inside the wards are downloaded from OpenStreetMap with `osmnx`: places tagged as a clinic, dentist, doctor's practice, hospital or nursing home under the `amenity` key, and every place carrying any `healthcare` tag, such as pharmacies, laboratories and physiotherapy or blood donation centres, so a facility is found whichever way it was mapped.
 3. Each facility is reduced to a single point that is guaranteed to lie inside its shape, so a hospital mapped as a building outline that crosses a ward boundary is still counted. Each point is matched to the ward it falls in; a point lying exactly on the boundary between two wards is counted in only one of them. The healthcare facilities in each ward are then counted.
 4. The wards are projected to the local UTM zone, chosen automatically for the city, and the area of each ward is computed in km². The density is the number of healthcare facilities divided by the area.
 5. The user enters a name for the output file (without `.xlsx`). The program saves each ward's `Count`, `Area (in km2)` and `Density` (per km²) to that Excel file.
@@ -49,7 +49,7 @@ Counts the healthcare facilities in every ward of a city, using OpenStreetMap da
 
 | Input | Output |
 |---|---|
-| [`kolkata_wards_141.gpkg`](https://github.com/shreyanspeaking-arch/Urban-Mobility-Geographic-Information-Systems/blob/Input-gpkg-files/kolkata_wards_141.gpkg) | [`Kolkata_Healthcare_Facilities_by_Ward.xlsx`](./Kolkata_Healthcare_Facilities_by_Ward.xlsx)<br>[`Kolkata Healthcare Facilities by Number in each Ward.png`](./Kolkata%20Healthcare%20Facilities%20by%20Number%20in%20each%20Ward.png)<br>[`Kolkata Healthcare Facilities by Ward Area.png`](./Kolkata%20Healthcare%20Facilities%20by%20Ward%20Area.png) |
+| [`kolkata_wards_141.gpkg`](https://github.com/shreyanspeaking-arch/Urban-Mobility-Geographic-Information-Systems/blob/Input-gpkg-files/kolkata_wards_141.gpkg) | [`Kolkata Healthcare Facilities by Ward Area.xlsx`](./Kolkata%20Healthcare%20Facilities%20by%20Ward%20Area.xlsx)<br>[`Kolkata Healthcare Facilities by Number in each Ward.png`](./Kolkata%20Healthcare%20Facilities%20by%20Number%20in%20each%20Ward.png)<br>[`Kolkata Healthcare Facilities by Ward Area.png`](./Kolkata%20Healthcare%20Facilities%20by%20Ward%20Area.png) |
 
 **🗺️ Sample maps**
 
