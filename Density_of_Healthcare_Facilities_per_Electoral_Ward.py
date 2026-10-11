@@ -15,9 +15,11 @@ if 'geometry' not in list(g.columns):
     g=gpd.GeoDataFrame(g)
 g=g.to_crs('EPSG:4326')
 g=g[['ward','geometry']]
-h=ox.features_from_polygon(g.geometry.union_all(),tags={'amenity':['clinic','dentist','doctors','hospital','nursing_home']})
+h=ox.features_from_polygon(g.geometry.union_all(),tags={'amenity':['clinic','dentist','doctors','hospital','nursing_home'],'healthcare':['clinic','dentist','doctor','hospital','nursing_home']})
 h=h.to_crs('EPSG:4326')
-r=h.sjoin(g, how='left', predicate='within')
+h['geometry']=h.representative_point()
+r=h.sjoin(g, how='inner', predicate='intersects')
+r=r[~r.index.duplicated(keep='first')]
 g['CMF']=[0 for i in range(len(g))]
 g=g.set_index('ward')
 for j in r['ward'].tolist():
@@ -40,4 +42,3 @@ ax.set_xlabel('Longitude')
 ax.set_ylabel('Latitude')
 plt.tight_layout()
 plt.show()
-
