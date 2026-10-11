@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🏙️ Urban Mobility GIS
+# 🏙️ Urban Mobility Geographic Information Systems
 
 **Python programs that map and measure the wards of Indian cities: ward area, ward perimeter, road density and the density of healthcare facilities, drawn as choropleth maps from ward-boundary GeoPackages.**
 
@@ -18,38 +18,38 @@ This repository has 5 sub-branches (excluding main) as of 11th October 2026.
 
 | | Topic | What's inside | Programs |
 |:-:|---|---|:-:|
-| 📐 | [**Ward Area Map**](https://github.com/shreyanspeaking-arch/Urban-Mobility-GIS/tree/Ward-Area-Map) | Area of every ward in km², with a choropleth map | 1 |
-| 📏 | [**Ward Perimeter Map**](https://github.com/shreyanspeaking-arch/Urban-Mobility-GIS/tree/Ward-Perimeter-Map) | Perimeter of every ward in km, with a choropleth map | 1 |
-| 🛣️ | [**Ward Road Density**](https://github.com/shreyanspeaking-arch/Urban-Mobility-GIS/tree/Ward-Road-Density) | Road length per km² of every ward, using OpenStreetMap roads | 1 |
-| 🏥 | [**Density of Healthcare Facilities per Ward**](https://github.com/shreyanspeaking-arch/Urban-Mobility-GIS/tree/Density-of-Healthcare-Facilities-per-Ward) | Hospitals, clinics and other healthcare facilities per km² of every ward, using OpenStreetMap | 1 |
-| 🗂️ | [**Input gpkg files**](https://github.com/shreyanspeaking-arch/Urban-Mobility-GIS/tree/Input-gpkg-files) | Ward-boundary GeoPackages for 8 cities, the input for every program | – |
+| 📐 | [**Ward Area Map**](https://github.com/shreyanspeaking-arch/Urban-Mobility-Geographic-Information-Systems/tree/Ward-Area-Map) | Area of every ward in km², with a choropleth map | 1 |
+| 📏 | [**Ward Perimeter Map**](https://github.com/shreyanspeaking-arch/Urban-Mobility-Geographic-Information-Systems/tree/Ward-Perimeter-Map) | Perimeter of every ward in km, with a choropleth map | 1 |
+| 🛣️ | [**Ward Road Density**](https://github.com/shreyanspeaking-arch/Urban-Mobility-Geographic-Information-Systems/tree/Ward-Road-Density) | Road length per km² of every ward, using OpenStreetMap roads | 1 |
+| 🏥 | [**Density of Healthcare Facilities per Ward**](https://github.com/shreyanspeaking-arch/Urban-Mobility-Geographic-Information-Systems/tree/Density-of-Healthcare-Facilities-per-Ward) | Hospitals, clinics and other healthcare facilities per km² of every ward, using OpenStreetMap | 1 |
+| 🗂️ | [**Input gpkg files**](https://github.com/shreyanspeaking-arch/Urban-Mobility-Geographic-Information-Systems/tree/Input-gpkg-files) | Ward-boundary GeoPackages for 8 cities, the input for every program | – |
 
 ## 📚 All programs
 
-### 📐 [Ward Area Map](https://github.com/shreyanspeaking-arch/Urban-Mobility-GIS/tree/Ward-Area-Map)
+### 📐 [Ward Area Map](https://github.com/shreyanspeaking-arch/Urban-Mobility-Geographic-Information-Systems/tree/Ward-Area-Map)
 
-- [**Ward Area Map**](https://github.com/shreyanspeaking-arch/Urban-Mobility-GIS/blob/Ward-Area-Map/ward_area.py): Area of each ward in km², saved to Excel and shown on a map
+- [**Ward Area Map**](https://github.com/shreyanspeaking-arch/Urban-Mobility-Geographic-Information-Systems/blob/Ward-Area-Map/ward_area.py): Area of each ward in km², saved to Excel and shown on a map
 
-### 📏 [Ward Perimeter Map](https://github.com/shreyanspeaking-arch/Urban-Mobility-GIS/tree/Ward-Perimeter-Map)
+### 📏 [Ward Perimeter Map](https://github.com/shreyanspeaking-arch/Urban-Mobility-Geographic-Information-Systems/tree/Ward-Perimeter-Map)
 
-- [**Ward Perimeter Map**](https://github.com/shreyanspeaking-arch/Urban-Mobility-GIS/blob/Ward-Perimeter-Map/ward_perimeter.py): Perimeter of each ward in km, saved to Excel and shown on a map
+- [**Ward Perimeter Map**](https://github.com/shreyanspeaking-arch/Urban-Mobility-Geographic-Information-Systems/blob/Ward-Perimeter-Map/ward_perimeter.py): Perimeter of each ward in km, saved to Excel and shown on a map
 
-### 🛣️ [Ward Road Density](https://github.com/shreyanspeaking-arch/Urban-Mobility-GIS/tree/Ward-Road-Density)
+### 🛣️ [Ward Road Density](https://github.com/shreyanspeaking-arch/Urban-Mobility-Geographic-Information-Systems/tree/Ward-Road-Density)
 
-- [**Road Density per Electoral Ward**](https://github.com/shreyanspeaking-arch/Urban-Mobility-GIS/blob/Ward-Road-Density/Road_Density_per_Electoral_Ward.py): Total length of drivable roads in each ward divided by its area (km/km²), with a map
+- [**Road Density per Electoral Ward**](https://github.com/shreyanspeaking-arch/Urban-Mobility-Geographic-Information-Systems/blob/Ward-Road-Density/Road_Density_per_Electoral_Ward.py): Total length of drivable roads in each ward divided by its area (km/km²), with a map
 
-### 🏥 [Density of Healthcare Facilities per Ward](https://github.com/shreyanspeaking-arch/Urban-Mobility-GIS/tree/Density-of-Healthcare-Facilities-per-Ward)
+### 🏥 [Density of Healthcare Facilities per Ward](https://github.com/shreyanspeaking-arch/Urban-Mobility-Geographic-Information-Systems/tree/Density-of-Healthcare-Facilities-per-Ward)
 
-- [**Density of Healthcare Facilities per Electoral Ward**](https://github.com/shreyanspeaking-arch/Urban-Mobility-GIS/blob/Density-of-Healthcare-Facilities-per-Ward/Density_of_Healthcare_Facilities_per_Electoral_Ward.py): Number of healthcare facilities in each ward divided by its area (facilities/km²), with a map
+- [**Density of Healthcare Facilities per Electoral Ward**](https://github.com/shreyanspeaking-arch/Urban-Mobility-Geographic-Information-Systems/blob/Density-of-Healthcare-Facilities-per-Ward/Density_of_Healthcare_Facilities_per_Electoral_Ward.py): Number of healthcare facilities in each ward divided by its area (facilities/km²), with a map
 
 ## ⚙️ Getting started
 
-Clone just the topic you need (swap in any branch name from the table above), download a ward-boundary file from the [Input gpkg files](https://github.com/shreyanspeaking-arch/Urban-Mobility-GIS/tree/Input-gpkg-files) branch, install the packages listed in that branch's README, and run the program:
+Clone just the topic you need (swap in any branch name from the table above), download a ward-boundary file from the [Input gpkg files](https://github.com/shreyanspeaking-arch/Urban-Mobility-Geographic-Information-Systems/tree/Input-gpkg-files) branch, install the packages listed in that branch's README, and run the program:
 
 ```bash
-git clone -b Ward-Area-Map --single-branch https://github.com/shreyanspeaking-arch/Urban-Mobility-GIS.git
-cd Urban-Mobility-GIS
-curl -LO https://github.com/shreyanspeaking-arch/Urban-Mobility-GIS/raw/Input-gpkg-files/kolkata_wards_141.gpkg
+git clone -b Ward-Area-Map --single-branch https://github.com/shreyanspeaking-arch/Urban-Mobility-Geographic-Information-Systems.git
+cd Urban-Mobility-Geographic-Information-Systems
+curl -LO https://github.com/shreyanspeaking-arch/Urban-Mobility-Geographic-Information-Systems/raw/Input-gpkg-files/kolkata_wards_141.gpkg
 pip install geopandas pandas matplotlib openpyxl
 python ward_area.py
 ```
@@ -59,5 +59,5 @@ Every program is interactive: it asks for its inputs one at a time in the termin
 ## 📝 About the sample data
 
 - The input files are **GeoPackages** (`.gpkg`) of ward boundaries for 8 cities: Ahmedabad, Bengaluru, Chennai, Delhi, Hyderabad, Jaipur, Kolkata and Mumbai. Each holds the ward name or number and the ward's shape.
-- Only the Kolkata and Mumbai files have a column named `WARD`; for the others the programs ask which column holds the ward name or number. The [Input gpkg files](https://github.com/shreyanspeaking-arch/Urban-Mobility-GIS/tree/Input-gpkg-files) README lists the column to use for each city.
+- Only the Kolkata and Mumbai files have a column named `WARD`; for the others the programs ask which column holds the ward name or number. The [Input gpkg files](https://github.com/shreyanspeaking-arch/Urban-Mobility-Geographic-Information-Systems/tree/Input-gpkg-files) README lists the column to use for each city.
 - Sample outputs are `.xlsx` tables and `.png` maps named after the city. The commit message of each output file says which program and input created it.
