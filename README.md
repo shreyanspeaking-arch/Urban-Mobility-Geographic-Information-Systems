@@ -2,9 +2,9 @@
 
 # 🏙️ Urban Mobility Geographic Information Systems
 
-**Python programs that map and measure the wards of Indian cities: ward area, ward perimeter, road density and the density of healthcare facilities, drawn as choropleth maps from ward-boundary GeoPackages.**
+**Python programs that map and measure the wards of Indian cities: ward area, ward perimeter, road density and the density of healthcare and education facilities, drawn as choropleth maps from ward-boundary GeoPackages.**
 
-![Python](https://img.shields.io/badge/Python-3-3776AB?logo=python&logoColor=white) ![Programs](https://img.shields.io/badge/programs-4-2ea44f) ![Topics](https://img.shields.io/badge/topic%20branches-4-blue) ![Cities](https://img.shields.io/badge/sample%20cities-8-purple) ![Updated](https://img.shields.io/badge/updated-11%20Oct%202026-orange)
+![Python](https://img.shields.io/badge/Python-3-3776AB?logo=python&logoColor=white) ![Programs](https://img.shields.io/badge/programs-5-2ea44f) ![Topics](https://img.shields.io/badge/topic%20branches-5-blue) ![Cities](https://img.shields.io/badge/sample%20cities-8-purple) ![Updated](https://img.shields.io/badge/updated-11%20Oct%202026-orange)
 
 </div>
 
@@ -12,7 +12,7 @@
 
 Each program lives on its **own branch**, with its sample outputs, and a README explaining how it works. The ward-boundary files that every program reads are kept together on a separate data branch. Pick a topic below to jump to its branch.
 
-This repository has 5 sub-branches (excluding main) as of 11th October 2026.
+This repository has 6 sub-branches (excluding main) as of 11th October 2026.
 
 ## 🧭 Browse by topic
 
@@ -22,6 +22,7 @@ This repository has 5 sub-branches (excluding main) as of 11th October 2026.
 | 📏 | [**Ward Perimeter Map**](https://github.com/shreyanspeaking-arch/Urban-Mobility-Geographic-Information-Systems/tree/Ward-Perimeter-Map) | Perimeter of every ward in km, with a choropleth map | 1 |
 | 🛣️ | [**Ward Road Density**](https://github.com/shreyanspeaking-arch/Urban-Mobility-Geographic-Information-Systems/tree/Ward-Road-Density) | Road length per km² of every ward, using OpenStreetMap roads | 1 |
 | 🏥 | [**Density of Healthcare Facilities per Ward**](https://github.com/shreyanspeaking-arch/Urban-Mobility-Geographic-Information-Systems/tree/Density-of-Healthcare-Facilities-per-Ward) | Hospitals, clinics and other healthcare facilities per km² of every ward, using OpenStreetMap | 1 |
+| 🎓 | [**Density of Education Facilities per Ward**](https://github.com/shreyanspeaking-arch/Urban-Mobility-Geographic-Information-Systems/tree/Density-of-Education-Facilities-per-Ward) | Schools, colleges, universities and other education facilities per km² of every ward, using OpenStreetMap | 1 |
 | 🗂️ | [**Input gpkg files**](https://github.com/shreyanspeaking-arch/Urban-Mobility-Geographic-Information-Systems/tree/Input-gpkg-files) | Ward-boundary GeoPackages for 8 cities, the input for every program | – |
 
 ## 📚 All programs
@@ -40,7 +41,11 @@ This repository has 5 sub-branches (excluding main) as of 11th October 2026.
 
 ### 🏥 [Density of Healthcare Facilities per Ward](https://github.com/shreyanspeaking-arch/Urban-Mobility-Geographic-Information-Systems/tree/Density-of-Healthcare-Facilities-per-Ward)
 
-- [**Density of Healthcare Facilities per Electoral Ward**](https://github.com/shreyanspeaking-arch/Urban-Mobility-Geographic-Information-Systems/blob/Density-of-Healthcare-Facilities-per-Ward/Density_of_Healthcare_Facilities_per_Electoral_Ward.py): Number of healthcare facilities in each ward divided by its area (facilities/km²), with a map
+- [**Density of Healthcare Facilities per Electoral Ward**](https://github.com/shreyanspeaking-arch/Urban-Mobility-Geographic-Information-Systems/blob/Density-of-Healthcare-Facilities-per-Ward/Density_of_Healthcare_Facilities_per_Electoral_Ward.py): Number of healthcare facilities in each ward divided by its area (facilities/km²), saved to Excel and shown on a map
+
+### 🎓 [Density of Education Facilities per Ward](https://github.com/shreyanspeaking-arch/Urban-Mobility-Geographic-Information-Systems/tree/Density-of-Education-Facilities-per-Ward)
+
+- [**Density of Educational Facilities per Electoral Ward**](https://github.com/shreyanspeaking-arch/Urban-Mobility-Geographic-Information-Systems/blob/Density-of-Education-Facilities-per-Ward/Density_of_Educational_Facilities_per_Electoral_Ward.py): Number of education facilities in each ward divided by its area (facilities/km²), saved to Excel and shown on a map
 
 ## ⚙️ Getting started
 
@@ -54,7 +59,7 @@ pip install geopandas pandas matplotlib openpyxl
 python ward_area.py
 ```
 
-Every program is interactive: it asks for its inputs one at a time in the terminal, then shows a map and, where noted, saves the results to an `.xlsx` file.
+Every program is interactive: it asks for its inputs one at a time in the terminal, then saves the results to an `.xlsx` file and shows a map.
 
 ## 📝 About the sample data
 
