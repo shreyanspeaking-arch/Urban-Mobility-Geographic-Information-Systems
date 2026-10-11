@@ -41,7 +41,7 @@ This repository has 6 sub-branches (excluding main) as of 11th October 2026.
 
 ### 🏥 [Ward Healthcare Facilities](https://github.com/shreyanspeaking-arch/Urban-Mobility-Geographic-Information-Systems/tree/Ward-Healthcare-Facilities)
 
-[**Data on Healthcare Facilities by Ward Division**](https://github.com/shreyanspeaking-arch/Urban-Mobility-Geographic-Information-Systems/blob/Ward-Healthcare-Facilities/Data_on_Healthcare_Facilities_by_Ward_Division): Number of healthcare facilities in each ward and their density per km², saved to Excel and shown on two maps
+[**Data on Healthcare Facilities by Ward Division**](https://github.com/shreyanspeaking-arch/Urban-Mobility-Geographic-Information-Systems/blob/Ward-Healthcare-Facilities/Data_on_Healthcare_Facilities_by_Ward_Division.py): Number of healthcare facilities in each ward and their density per km², saved to Excel and shown on two maps
 
 ### 🎓 [Ward Educational Institutions](https://github.com/shreyanspeaking-arch/Urban-Mobility-Geographic-Information-Systems/tree/Ward-Educational-Institutions)
 
