@@ -1,4 +1,4 @@
-import geopandas as gpd
+=import geopandas as gpd
 import osmnx as ox
 import numpy as np
 import sys
@@ -15,7 +15,7 @@ if 'geometry' not in list(g.columns):
     g=gpd.GeoDataFrame(g)
 g=g.to_crs('EPSG:4326')
 g=g[['ward','geometry']]
-h=ox.features_from_polygon(g.geometry.union_all(),tags={'amenity':['college','kindergarten','research_institute','school','training','university']})
+h=ox.features_from_polygon(g.geometry.union_all(),tags={'amenity':['college','kindergarten','research_institute','school','training','university'],'office':'educational institution','landuse':'education'})
 h=h.to_crs('EPSG:4326')
 h['geometry']=h.representative_point()
 r=h.sjoin(g, how='inner', predicate='intersects')
@@ -35,7 +35,7 @@ f=input('Enter output spreadsheet filename')
 g.to_excel(f+'.xlsx',index=False)
 
 fig,ax=plt.subplots(figsize=(6,6))
-g.plot(ax=ax,column='Count',cmap='Paired',legend=True)
+g.plot(ax=ax,column='Count',cmap='YlGn',legend=True)
 g.boundary.plot(ax=ax,color='black',linewidth=1,label='Ward boundary')
 ax.set_title('Map Displaying the no. of educational facilities in each ward')
 ax.get_xaxis().set_visible(True)
