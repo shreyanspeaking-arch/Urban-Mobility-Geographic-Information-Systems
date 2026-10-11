@@ -29,23 +29,23 @@ This repository has 6 sub-branches (excluding main) as of 11th October 2026.
 
 ### 📐 [Ward Area Map](https://github.com/shreyanspeaking-arch/Urban-Mobility-Geographic-Information-Systems/tree/Ward-Area-Map)
 
-- [**Ward Area Map**](https://github.com/shreyanspeaking-arch/Urban-Mobility-Geographic-Information-Systems/blob/Ward-Area-Map/ward_area.py): Area of each ward in km², saved to Excel and shown on a map
+[**Ward Area Map**](https://github.com/shreyanspeaking-arch/Urban-Mobility-Geographic-Information-Systems/blob/Ward-Area-Map/ward_area.py): Area of each ward in km², saved to Excel and shown on a map
 
 ### 📏 [Ward Perimeter Map](https://github.com/shreyanspeaking-arch/Urban-Mobility-Geographic-Information-Systems/tree/Ward-Perimeter-Map)
 
-- [**Ward Perimeter Map**](https://github.com/shreyanspeaking-arch/Urban-Mobility-Geographic-Information-Systems/blob/Ward-Perimeter-Map/ward_perimeter.py): Perimeter of each ward in km, saved to Excel and shown on a map
+[**Ward Perimeter Map**](https://github.com/shreyanspeaking-arch/Urban-Mobility-Geographic-Information-Systems/blob/Ward-Perimeter-Map/ward_perimeter.py): Perimeter of each ward in km, saved to Excel and shown on a map
 
 ### 🛣️ [Ward Road Density](https://github.com/shreyanspeaking-arch/Urban-Mobility-Geographic-Information-Systems/tree/Ward-Road-Density)
 
-- [**Road Density per Electoral Ward**](https://github.com/shreyanspeaking-arch/Urban-Mobility-Geographic-Information-Systems/blob/Ward-Road-Density/Road_Density_per_Electoral_Ward.py): Total length of drivable roads in each ward divided by its area (km/km²), with a map
+[**Road Density per Electoral Ward**](https://github.com/shreyanspeaking-arch/Urban-Mobility-Geographic-Information-Systems/blob/Ward-Road-Density/Road_Density_per_Electoral_Ward.py): Total length of drivable roads in each ward divided by its area (km/km²), with a map
 
 ### 🏥 [Ward Healthcare Facilities](https://github.com/shreyanspeaking-arch/Urban-Mobility-Geographic-Information-Systems/tree/Ward-Healthcare-Facilities)
 
-- [**Data on Healthcare Facilities by Ward Division**](https://github.com/shreyanspeaking-arch/Urban-Mobility-Geographic-Information-Systems/blob/Ward-Healthcare-Facilities/Data_on_Healthcare_Facilities_by_Ward_Division): Number of healthcare facilities in each ward and their density per km², saved to Excel and shown on two maps
+[**Data on Healthcare Facilities by Ward Division**](https://github.com/shreyanspeaking-arch/Urban-Mobility-Geographic-Information-Systems/blob/Ward-Healthcare-Facilities/Data_on_Healthcare_Facilities_by_Ward_Division): Number of healthcare facilities in each ward and their density per km², saved to Excel and shown on two maps
 
 ### 🎓 [Ward Educational Institutions](https://github.com/shreyanspeaking-arch/Urban-Mobility-Geographic-Information-Systems/tree/Ward-Educational-Institutions)
 
-- [**Data on Educational Institutes by Ward Division**](https://github.com/shreyanspeaking-arch/Urban-Mobility-Geographic-Information-Systems/blob/Ward-Educational-Institutions/Data_on_Educational_Institutes_by_Ward_Division.py): Number of educational institutes in each ward and their density per km², saved to Excel and shown on two maps
+[**Data on Educational Institutes by Ward Division**](https://github.com/shreyanspeaking-arch/Urban-Mobility-Geographic-Information-Systems/blob/Ward-Educational-Institutions/Data_on_Educational_Institutes_by_Ward_Division.py): Number of educational institutes in each ward and their density per km², saved to Excel and shown on two maps
 
 ## ⚙️ Getting started
 
