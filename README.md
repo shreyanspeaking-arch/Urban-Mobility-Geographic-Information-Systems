@@ -1,68 +1,67 @@
 <div align="center">
 
-# 🏙️ Urban Mobility Geographic Information Systems
+# 🚆 Ward Railway Network
 
-**Python programs that map and measure the wards of Indian cities: ward area, ward perimeter, road density and the number and density of healthcare and education facilities, drawn as choropleth maps from ward-boundary GeoPackages.**
+**A branch of [Urban Mobility Geographic Information Systems](https://github.com/shreyanspeaking-arch/Urban-Mobility-Geographic-Information-Systems), a collection of Python programs that map and measure the wards of Indian cities.**
 
-![Python](https://img.shields.io/badge/Python-3-3776AB?logo=python&logoColor=white) ![Programs](https://img.shields.io/badge/programs-5-2ea44f) ![Topics](https://img.shields.io/badge/topic%20branches-5-blue) ![Cities](https://img.shields.io/badge/sample%20cities-8-purple) ![Updated](https://img.shields.io/badge/updated-11%20Oct%202026-orange)
+![Python](https://img.shields.io/badge/Python-3-3776AB?logo=python&logoColor=white) ![Programs](https://img.shields.io/badge/programs-1-2ea44f) ![Interactive](https://img.shields.io/badge/run%20in-terminal-lightgrey)
 
 </div>
 
-## 👋 About
+Railway stations are the entry points to a city's rail network. Plotting them over the ward map shows which wards are served by suburban or local trains, which by the metro, and which have no station at all.
 
-Each program lives on its **own branch**, with its sample outputs, and a README explaining how it works. The ward-boundary files that every program reads are kept together on a separate data branch. Pick a topic below to jump to its branch.
+## 📂 Programs in this branch
 
-This repository has 6 sub-branches (excluding main) as of 11th October 2026.
-
-## 🧭 Browse by topic
-
-| | Topic | What's inside | Programs |
-|:-:|---|---|:-:|
-| 📐 | [**Ward Area Map**](https://github.com/shreyanspeaking-arch/Urban-Mobility-Geographic-Information-Systems/tree/Ward-Area-Map) | Area of every ward in km², with a choropleth map | 1 |
-| 📏 | [**Ward Perimeter Map**](https://github.com/shreyanspeaking-arch/Urban-Mobility-Geographic-Information-Systems/tree/Ward-Perimeter-Map) | Perimeter of every ward in km, with a choropleth map | 1 |
-| 🛣️ | [**Ward Road Density**](https://github.com/shreyanspeaking-arch/Urban-Mobility-Geographic-Information-Systems/tree/Ward-Road-Density) | Road length per km² of every ward, using OpenStreetMap roads | 1 |
-| 🏥 | [**Ward Healthcare Facilities**](https://github.com/shreyanspeaking-arch/Urban-Mobility-Geographic-Information-Systems/tree/Ward-Healthcare-Facilities) | Number of hospitals, clinics and other healthcare facilities in every ward and their density per km², using OpenStreetMap | 1 |
-| 🎓 | [**Ward Educational Institutions**](https://github.com/shreyanspeaking-arch/Urban-Mobility-Geographic-Information-Systems/tree/Ward-Educational-Institutions) | Number of schools, colleges, universities and other educational institutes in every ward and their density per km², using OpenStreetMap | 1 |
-| 🗂️ | [**Input gpkg files**](https://github.com/shreyanspeaking-arch/Urban-Mobility-Geographic-Information-Systems/tree/Input-gpkg-files) | Ward-boundary GeoPackages for 8 cities, the input for every program | – |
-
-## 📚 All programs
-
-### 📐 [Ward Area Map](https://github.com/shreyanspeaking-arch/Urban-Mobility-Geographic-Information-Systems/tree/Ward-Area-Map)
-
-[**Ward Area Map**](https://github.com/shreyanspeaking-arch/Urban-Mobility-Geographic-Information-Systems/blob/Ward-Area-Map/ward_area.py): Area of each ward in km², saved to Excel and shown on a map
-
-### 📏 [Ward Perimeter Map](https://github.com/shreyanspeaking-arch/Urban-Mobility-Geographic-Information-Systems/tree/Ward-Perimeter-Map)
-
-[**Ward Perimeter Map**](https://github.com/shreyanspeaking-arch/Urban-Mobility-Geographic-Information-Systems/blob/Ward-Perimeter-Map/ward_perimeter.py): Perimeter of each ward in km, saved to Excel and shown on a map
-
-### 🛣️ [Ward Road Density](https://github.com/shreyanspeaking-arch/Urban-Mobility-Geographic-Information-Systems/tree/Ward-Road-Density)
-
-[**Road Density per Electoral Ward**](https://github.com/shreyanspeaking-arch/Urban-Mobility-Geographic-Information-Systems/blob/Ward-Road-Density/Road_Density_per_Electoral_Ward.py): Total length of drivable roads in each ward divided by its area (km/km²), with a map
-
-### 🏥 [Ward Healthcare Facilities](https://github.com/shreyanspeaking-arch/Urban-Mobility-Geographic-Information-Systems/tree/Ward-Healthcare-Facilities)
-
-[**Data on Healthcare Facilities by Ward Division**](https://github.com/shreyanspeaking-arch/Urban-Mobility-Geographic-Information-Systems/blob/Ward-Healthcare-Facilities/Data_on_Healthcare_Facilities_by_Ward_Division.py): Number of healthcare facilities in each ward and their density per km², saved to Excel and shown on two maps
-
-### 🎓 [Ward Educational Institutions](https://github.com/shreyanspeaking-arch/Urban-Mobility-Geographic-Information-Systems/tree/Ward-Educational-Institutions)
-
-[**Data on Educational Institutes by Ward Division**](https://github.com/shreyanspeaking-arch/Urban-Mobility-Geographic-Information-Systems/blob/Ward-Educational-Institutions/Data_on_Educational_Institutes_by_Ward_Division.py): Number of educational institutes in each ward and their density per km², saved to Excel and shown on two maps
+| Program | What it does |
+|---|---|
+| [**Railway Station Mapping with Electoral Ward Grid**](#railway-station-mapping-with-electoral-ward-grid) | Every railway station in a city from OpenStreetMap, sorted into suburban or local rail and subway, saved to Excel and shown on the ward map |
 
 ## ⚙️ Getting started
 
-Clone just the topic you need (swap in any branch name from the table above), download a ward-boundary file from the [Input gpkg files](https://github.com/shreyanspeaking-arch/Urban-Mobility-Geographic-Information-Systems/tree/Input-gpkg-files) branch, install the packages listed in that branch's README, and run the program:
-
 ```bash
-git clone -b Ward-Area-Map --single-branch https://github.com/shreyanspeaking-arch/Urban-Mobility-Geographic-Information-Systems.git
+git clone -b Ward-Railway-Network --single-branch https://github.com/shreyanspeaking-arch/Urban-Mobility-Geographic-Information-Systems.git
 cd Urban-Mobility-Geographic-Information-Systems
 curl -LO https://github.com/shreyanspeaking-arch/Urban-Mobility-Geographic-Information-Systems/raw/Input-gpkg-files/kolkata_wards_141.gpkg
-pip install geopandas pandas matplotlib openpyxl
-python ward_area.py
+pip install geopandas osmnx pandas numpy matplotlib openpyxl
+python Railway_Station_Mapping_with_Electoral_Ward_Grid.py
 ```
 
-Every program is interactive: it asks for its inputs one at a time in the terminal, then saves the results to an `.xlsx` file and shows its maps.
+Every program is interactive: it asks for its inputs one at a time in the terminal, then saves the results to an `.xlsx` file and shows its maps. Input files for 8 cities are on the [Input gpkg files](https://github.com/shreyanspeaking-arch/Urban-Mobility-Geographic-Information-Systems/tree/Input-gpkg-files) branch. This program also needs an internet connection, because it downloads the railway stations from OpenStreetMap.
 
-## 📝 About the sample data
+---
 
-- The input files are **GeoPackages** (`.gpkg`) of ward boundaries for 8 cities: Ahmedabad, Bengaluru, Chennai, Delhi, Hyderabad, Jaipur, Kolkata and Mumbai. Each holds the ward name or number and the ward's shape.
-- Only the Kolkata and Mumbai files have a column named `WARD`; for the others the programs ask which column holds the ward name or number. The [Input gpkg files](https://github.com/shreyanspeaking-arch/Urban-Mobility-Geographic-Information-Systems/tree/Input-gpkg-files) README lists the column to use for each city.
-- Sample outputs are `.xlsx` tables and `.png` maps whose names start with the city. The commit message of each output file says which program and input created it.
+## Railway Station Mapping with Electoral Ward Grid
+
+📄 **File:** [`Railway_Station_Mapping_with_Electoral_Ward_Grid.py`](./Railway_Station_Mapping_with_Electoral_Ward_Grid.py)
+
+Finds every railway station inside a city's wards using OpenStreetMap data, lets the user sort the stations into suburban or local rail and subway systems by their operator, plots them over the ward map, and saves the list of stations to Excel.
+
+**How it works**
+
+1. The user enters the name of a ward-boundary file, such as a `.gpkg` file from the [Input gpkg files](https://github.com/shreyanspeaking-arch/Urban-Mobility-Geographic-Information-Systems/tree/Input-gpkg-files) branch. The program lists the file's columns and asks which one holds the ward name or number. If the file has no `geometry` column, it also asks which column holds the ward shapes.
+2. All railway stations inside the wards (`railway=station`) are downloaded from OpenStreetMap with `osmnx`, and each station is reduced to a single point that is guaranteed to lie inside its shape.
+3. The stations are grouped by their operator, and the program prints the list of operators. For each operator, the user enters whether it runs a suburban or local rail system or a subway system, and every station of that operator is labelled accordingly.
+4. Stations with no operator recorded in OpenStreetMap are counted. The user can either label each of them one by one as suburban or local rail, subway, or unknown, or leave them all as an unknown or other system.
+5. The program draws the wards in grey with their boundaries outlined, and marks the stations in three colours: one for suburban or local rail, one for subway and one for unknown or other systems.
+6. The user enters a name for the output file (without `.xlsx`), and the program saves every station, with its OpenStreetMap details and a `Kind of Railway` column, to that Excel file.
+
+**🧪 Sample input and output**
+
+| Input | Output |
+|---|---|
+| [`kolkata_wards_141.gpkg`](https://github.com/shreyanspeaking-arch/Urban-Mobility-Geographic-Information-Systems/blob/Input-gpkg-files/kolkata_wards_141.gpkg) | [`Railway_Stations_in_Kolkata.xlsx`](./Railway_Stations_in_Kolkata.xlsx)<br>[`Railway_Stations_in_Kolkata.png`](./Railway_Stations_in_Kolkata.png) |
+| [`mumbai_electoral_wards_2017.gpkg`](https://github.com/shreyanspeaking-arch/Urban-Mobility-Geographic-Information-Systems/blob/Input-gpkg-files/mumbai_electoral_wards_2017.gpkg) | [`Railway_Stations_in_Mumbai.xlsx`](./Railway_Stations_in_Mumbai.xlsx)<br>[`Railway_Stations_in_Mumbai.png`](./Railway_Stations_in_Mumbai.png) |
+
+**🗺️ Sample maps**
+
+<p align="center">
+  <img src="./Railway_Stations_in_Kolkata.png" alt="Railway stations in Kolkata on the ward map" width="720">
+</p>
+
+<p align="center">
+  <img src="./Railway_Stations_in_Mumbai.png" alt="Railway stations in Mumbai on the ward map" width="720">
+</p>
+
+---
+
+<div align="center"><sub>📚 <a href="https://github.com/shreyanspeaking-arch/Urban-Mobility-Geographic-Information-Systems">Back to all topics</a></sub></div>
