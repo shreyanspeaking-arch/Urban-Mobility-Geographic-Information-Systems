@@ -44,16 +44,18 @@ n=len(r4['name'])
 co=input(f'''There are {n} stations of unknown type. If you want to enter there types 
 individually one by one enter <YES> else press anything/enter''')
 if co.upper()=='YES':
-    for i in r4['name']:
-        co=int(input(f'''Enter 1 if {i} is a part of Suburban/Local Rail System
-Enter 2 if {i} is a part of Subway System
-Enter 3 if the system of {i} is unknown'''))
+    for i in list(r4.index):
+        co=int(input(f'''Enter 1 if {r4.loc[i,'name']} is a part of Suburban/Local Rail System
+Enter 2 if {r4.loc[i,'name']} is a part of Subway System
+Enter 3 if the system of {r4.loc[i,'name']} is unknown'''))
         if co==1:
+            r1.loc[i,'geometry']=r4.loc[i,'geometry']
             r1.loc[i,'Kind of Railway']='Suburban/Local Rail'
-            r4=r4[r4['name']!=i]
+            r4=r4.drop(index=i)
         elif co==2:
+            r1.loc[i,'geometry']=r4.loc[i,'geometry']
             r1.loc[i,'Kind of Railway']='Subway'
-            r4=r4[r4['name']!=i]
+            r4=r4.drop(index=i)
         elif co!=3:
             print('Invalid Input')
             sys.exit()
@@ -64,9 +66,10 @@ r3=r3[~r3.index.duplicated(keep='first')]
 fig,ax=plt.subplots(figsize=(6,6))
 g.plot(ax=ax,color='lightgrey')
 g.boundary.plot(ax=ax,color='black',linewidth=1,label='Ward boundary')
-r3.plot(ax=ax,color='red',markersize=20,label='Subway')
-r2.plot(ax=ax,color='blue',markersize=20,label='Suburban/Local Rail')
-r4.plot(ax=ax,color='forestgreen',markersize=20,label='Unknown/Other System')ax.set_title('Map Displaying the Presence of Railway Stations in wards')
+r2.plot(ax=ax,color='red',markersize=20,label='Subway')
+r3.plot(ax=ax,color='blue',markersize=20,label='Suburban/Local Rail')
+r4.plot(ax=ax,color='forestgreen',markersize=20,label='Unknown/Other System')
+ax.set_title('Map Displaying the Presence of Railway Stations in wards')
 ax.get_xaxis().set_visible(True)
 ax.get_yaxis().set_visible(True)
 ax.legend()
