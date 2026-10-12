@@ -49,11 +49,16 @@ Estimates the road density of every ward in a city, using the drivable road netw
 | Input | Output |
 |---|---|
 | [`kolkata_wards_141.gpkg`](https://github.com/shreyanspeaking-arch/Urban-Mobility-Geographic-Information-Systems/blob/Input-gpkg-files/kolkata_wards_141.gpkg) | [`kolkata_road_density.xlsx`](./kolkata_road_density.xlsx)<br>[`Kolkata Road Density.png`](./Kolkata%20Road%20Density.png) |
+| [`mumbai_electoral_wards_2017.gpkg`](https://github.com/shreyanspeaking-arch/Urban-Mobility-Geographic-Information-Systems/blob/Input-gpkg-files/mumbai_electoral_wards_2017.gpkg) | [`mumbai_road_density.xlsx`](./mumbai_road_density.xlsx)<br>[`Mumbai Road Density.png`](./Mumbai%20Road%20Density.png) |
 
-**🗺️ Sample map**
+**🗺️ Sample maps**
 
 <p align="center">
   <img src="./Kolkata%20Road%20Density.png" alt="Kolkata wards shaded by road density" width="720">
+</p>
+
+<p align="center">
+  <img src="./Mumbai%20Road%20Density.png" alt="Mumbai wards shaded by road density" width="720">
 </p>
 
 ---
