@@ -39,7 +39,7 @@ Counts the healthcare facilities in every ward of a city, using OpenStreetMap da
 **How it works**
 
 1. The user enters the name of a ward-boundary file, such as a `.gpkg` file from the [Input gpkg files](https://github.com/shreyanspeaking-arch/Urban-Mobility-Geographic-Information-Systems/tree/Input-gpkg-files) branch. The program lists the file's columns and asks which one holds the ward name or number. If the file has no `geometry` column, it also asks which column holds the ward shapes.
-2. All healthcare facilities inside the wards are downloaded from OpenStreetMap with `osmnx`: every place carrying any `healthcare` tag, such as hospitals, clinics, doctors, dentists, pharmacies, laboratories and blood donation centres, and every feature carrying any `emergency` tag, such as ambulance stations and emergency wards.
+2. All healthcare facilities inside the wards are downloaded from OpenStreetMap with `osmnx`: places tagged as a clinic, dentist, doctor's practice, hospital, nursing home or baby hatch under the `amenity` key, every place carrying any `healthcare` tag, such as pharmacies, laboratories and blood donation centres, and every feature carrying any `emergency` tag, which covers ambulance stations and emergency wards but also items such as fire hydrants and defibrillators.
 3. Each facility is reduced to a single point that is guaranteed to lie inside its shape, so a hospital mapped as a building outline that crosses a ward boundary is still counted. Each point is matched to the ward it falls in; a point lying exactly on the boundary between two wards is counted in only one of them. The healthcare facilities in each ward are then counted.
 4. The wards are projected to the local UTM zone, chosen automatically for the city, and the area of each ward is computed in km². The density is the number of healthcare facilities divided by the area.
 5. The user enters a name for the output file (without `.xlsx`). The program saves each ward's `Count`, `Area (in km2)` and `Density` (per km²) to that Excel file.
@@ -49,7 +49,8 @@ Counts the healthcare facilities in every ward of a city, using OpenStreetMap da
 
 | Input | Output |
 |---|---|
-| [`kolkata_wards_141.gpkg`](https://github.com/shreyanspeaking-arch/Urban-Mobility-Geographic-Information-Systems/blob/Input-gpkg-files/kolkata_wards_141.gpkg) | [`Kolkata Healthcare Facilities by Ward Area.xlsx`](./Kolkata%20Healthcare%20Facilities%20by%20Ward%20Area.xlsx)<br>[`Kolkata Healthcare Facilities by Number in each Ward.png`](./Kolkata%20Healthcare%20Facilities%20by%20Number%20in%20each%20Ward.png)<br>[`Kolkata Healthcare Facilities by Ward Area.png`](./Kolkata%20Healthcare%20Facilities%20by%20Ward%20Area.png) |
+| [`kolkata_wards_141.gpkg`](https://github.com/shreyanspeaking-arch/Urban-Mobility-Geographic-Information-Systems/blob/Input-gpkg-files/kolkata_wards_141.gpkg) | [`Kolkata_Healthcare_Facilities_by_Ward.xlsx`](./Kolkata_Healthcare_Facilities_by_Ward.xlsx)<br>[`Kolkata Healthcare Facilities by Number in each Ward.png`](./Kolkata%20Healthcare%20Facilities%20by%20Number%20in%20each%20Ward.png)<br>[`Kolkata Healthcare Facilities by Ward Area.png`](./Kolkata%20Healthcare%20Facilities%20by%20Ward%20Area.png) |
+| [`mumbai_electoral_wards_2017.gpkg`](https://github.com/shreyanspeaking-arch/Urban-Mobility-Geographic-Information-Systems/blob/Input-gpkg-files/mumbai_electoral_wards_2017.gpkg) | [`Mumbai_Healthcare_Facilities_by_Ward.xlsx`](./Mumbai_Healthcare_Facilities_by_Ward.xlsx)<br>[`Mumbai Healthcare Facilities by Number in each Ward.png`](./Mumbai%20Healthcare%20Facilities%20by%20Number%20in%20each%20Ward.png)<br>[`Mumbai Healthcare Facilities by Ward Area.png`](./Mumbai%20Healthcare%20Facilities%20by%20Ward%20Area.png) |
 
 **🗺️ Sample maps**
 
@@ -59,6 +60,14 @@ Counts the healthcare facilities in every ward of a city, using OpenStreetMap da
 
 <p align="center">
   <img src="./Kolkata%20Healthcare%20Facilities%20by%20Ward%20Area.png" alt="Kolkata wards shaded by healthcare facilities per km²" width="720">
+</p>
+
+<p align="center">
+  <img src="./Mumbai%20Healthcare%20Facilities%20by%20Number%20in%20each%20Ward.png" alt="Mumbai wards coloured by the number of healthcare facilities" width="720">
+</p>
+
+<p align="center">
+  <img src="./Mumbai%20Healthcare%20Facilities%20by%20Ward%20Area.png" alt="Mumbai wards shaded by healthcare facilities per km²" width="720">
 </p>
 
 ---
