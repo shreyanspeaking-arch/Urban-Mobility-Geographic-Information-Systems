@@ -49,16 +49,25 @@ Counts the educational institutes in every ward of a city, using OpenStreetMap d
 
 | Input | Output |
 |---|---|
-| [`kolkata_wards_141.gpkg`](https://github.com/shreyanspeaking-arch/Urban-Mobility-Geographic-Information-Systems/blob/Input-gpkg-files/kolkata_wards_141.gpkg) | [`Kolkata_Educational_Institutions_by_Ward.xlsx`](./Kolkata_Educational_Institutions_by_Ward.xlsx)<br>[`Kolkata Healthcare Facilities by Number in each Ward.png`](./Kolkata%20Healthcare%20Facilities%20by%20Number%20in%20each%20Ward.png)<br>[`Kolkata Educational Facilities by Ward Area.png`](./Kolkata%20Educational%20Facilities%20by%20Ward%20Area.png) |
+| [`kolkata_wards_141.gpkg`](https://github.com/shreyanspeaking-arch/Urban-Mobility-Geographic-Information-Systems/blob/Input-gpkg-files/kolkata_wards_141.gpkg) | [`Kolkata_Educational_Institutions_by_Ward.xlsx`](./Kolkata_Educational_Institutions_by_Ward.xlsx)<br>[`Kolkata Educational Institutions by Number in each Ward.png`](./Kolkata%20Educational%20Institutions%20by%20Number%20in%20each%20Ward.png)<br>[`Kolkata No of Educations Institutions per unit Ward Area.png`](./Kolkata%20No%20of%20Educations%20Institutions%20per%20unit%20Ward%20Area.png) |
+| [`mumbai_electoral_wards_2017.gpkg`](https://github.com/shreyanspeaking-arch/Urban-Mobility-Geographic-Information-Systems/blob/Input-gpkg-files/mumbai_electoral_wards_2017.gpkg) | [`Mumbai_Educational_Institutions_by_Ward.xlsx`](./Mumbai_Educational_Institutions_by_Ward.xlsx)<br>[`Mumbai Educational Institutions by Number in each Ward.png`](./Mumbai%20Educational%20Institutions%20by%20Number%20in%20each%20Ward.png)<br>[`Mumbai No of Educations Institutions per unit Ward Area.png`](./Mumbai%20No%20of%20Educations%20Institutions%20per%20unit%20Ward%20Area.png) |
 
 **🗺️ Sample maps**
 
 <p align="center">
-  <img src="./Kolkata%20Healthcare%20Facilities%20by%20Number%20in%20each%20Ward.png" alt="Kolkata wards coloured by the number of educational institutes" width="720">
+  <img src="./Kolkata%20Educational%20Institutions%20by%20Number%20in%20each%20Ward.png" alt="Kolkata wards coloured by the number of educational institutes" width="720">
 </p>
 
 <p align="center">
-  <img src="./Kolkata%20Educational%20Facilities%20by%20Ward%20Area.png" alt="Kolkata wards shaded by educational institutes per km²" width="720">
+  <img src="./Kolkata%20No%20of%20Educations%20Institutions%20per%20unit%20Ward%20Area.png" alt="Kolkata wards shaded by educational institutes per km²" width="720">
+</p>
+
+<p align="center">
+  <img src="./Mumbai%20Educational%20Institutions%20by%20Number%20in%20each%20Ward.png" alt="Mumbai wards coloured by the number of educational institutes" width="720">
+</p>
+
+<p align="center">
+  <img src="./Mumbai%20No%20of%20Educations%20Institutions%20per%20unit%20Ward%20Area.png" alt="Mumbai wards shaded by educational institutes per km²" width="720">
 </p>
 
 ---
