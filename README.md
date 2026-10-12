@@ -26,7 +26,7 @@ pip install geopandas osmnx pandas numpy matplotlib openpyxl
 python Railway_Station_Mapping_with_Electoral_Ward_Grid.py
 ```
 
-Every program is interactive: it asks for its inputs one at a time in the terminal, then saves the results to an `.xlsx` file and shows its maps. Input files for 8 cities are on the [Input gpkg files](https://github.com/shreyanspeaking-arch/Urban-Mobility-Geographic-Information-Systems/tree/Input-gpkg-files) branch. This program also needs an internet connection, because it downloads the railway stations from OpenStreetMap.
+Every program is interactive: it asks for its inputs one at a time in the terminal, then saves the results to an `.xlsx` file and shows its map. Input files for 8 cities are on the [Input gpkg files](https://github.com/shreyanspeaking-arch/Urban-Mobility-Geographic-Information-Systems/tree/Input-gpkg-files) branch. This program also needs an internet connection, because it downloads the railway stations from OpenStreetMap.
 
 ---
 
@@ -42,8 +42,8 @@ Finds every railway station inside a city's wards using OpenStreetMap data, lets
 2. All railway stations inside the wards (`railway=station`) are downloaded from OpenStreetMap with `osmnx`, and each station is reduced to a single point that is guaranteed to lie inside its shape.
 3. The stations are grouped by their operator, and the program prints the list of operators. For each operator, the user enters whether it runs a suburban or local rail system or a subway system, and every station of that operator is labelled accordingly.
 4. Stations with no operator recorded in OpenStreetMap are counted. The user can either label each of them one by one as suburban or local rail, subway, or unknown, or leave them all as an unknown or other system.
-5. The program draws the wards in grey with their boundaries outlined, and marks the stations in three colours: one for suburban or local rail, one for subway and one for unknown or other systems.
-6. The user enters a name for the output file (without `.xlsx`), and the program saves every station, with its OpenStreetMap details and a `Kind of Railway` column, to that Excel file.
+5. The user enters a name for the output file (without `.xlsx`), and the program saves every station, with its OpenStreetMap details and a `Kind of Railway` column, to that Excel file.
+6. The program then draws the wards in grey with their boundaries outlined, and marks the stations in three colours: red for subway, blue for suburban or local rail, and green for unknown or other systems.
 
 **🧪 Sample input and output**
 
