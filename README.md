@@ -47,11 +47,16 @@ Computes the area of every ward in a city from a ward-boundary file, saves the l
 | Input | Output |
 |---|---|
 | [`kolkata_wards_141.gpkg`](https://github.com/shreyanspeaking-arch/Urban-Mobility-Geographic-Information-Systems/blob/Input-gpkg-files/kolkata_wards_141.gpkg) | [`kolkata.xlsx`](./kolkata.xlsx)<br>[`kolkata.png`](./kolkata.png) |
+| [`mumbai_electoral_wards_2017.gpkg`](https://github.com/shreyanspeaking-arch/Urban-Mobility-Geographic-Information-Systems/blob/Input-gpkg-files/mumbai_electoral_wards_2017.gpkg) | [`mumbai.xlsx`](./mumbai.xlsx)<br>[`mumbai.png`](./mumbai.png) |
 
-**🗺️ Sample map**
+**🗺️ Sample maps**
 
 <p align="center">
   <img src="./kolkata.png" alt="Kolkata wards shaded by area" width="720">
+</p>
+
+<p align="center">
+  <img src="./mumbai.png" alt="Mumbai wards shaded by area" width="720">
 </p>
 
 ---
