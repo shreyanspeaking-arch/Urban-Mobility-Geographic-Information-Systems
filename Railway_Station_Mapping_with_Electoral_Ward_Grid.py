@@ -59,10 +59,15 @@ Enter 3 if the system of {r4.loc[i,'name']} is unknown'''))
         elif co!=3:
             print('Invalid Input')
             sys.exit()
+r5=r4.copy()
 r2=r1[r1['Kind of Railway']=='Subway']
 r2=r2[~r2.index.duplicated(keep='first')]
 r3=r1[r1['Kind of Railway']=='Suburban/Local Rail']
 r3=r3[~r3.index.duplicated(keep='first')]
+r5['Kind of Railway']=['Unknown/Other System' for i in range(len(r4))]
+r1=pd.concat([r1,r5],axis=0)
+f=input('Enter Output Filename. Exclude .xlsx.')
+r1.to_excel(f+'.xlsx',index=False)
 fig,ax=plt.subplots(figsize=(6,6))
 g.plot(ax=ax,color='lightgrey')
 g.boundary.plot(ax=ax,color='black',linewidth=1,label='Ward boundary')
@@ -77,7 +82,4 @@ ax.set_xlabel('Longitude')
 ax.set_ylabel('Latitude')
 plt.tight_layout()
 plt.show()
-r4['Kind of Railway']=['Unknown/Other System' for i in range(len(r4))]
-r1=pd.concat([r1,r4])
-f=input('Enter Output Filename. Exclude .xlsx.')
-r1.to_excel(f+'.xlsx',index=False)
+
