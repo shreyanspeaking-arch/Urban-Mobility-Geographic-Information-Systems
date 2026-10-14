@@ -50,6 +50,10 @@ Estimates the road density of every ward in a city, using the drivable road netw
 |---|---|
 | [`ahmedabad_wards.gpkg`](https://github.com/shreyanspeaking-arch/Urban-Mobility-Geographic-Information-Systems/blob/Input-gpkg-files/ahmedabad_wards.gpkg) | [`ahmedabad_road_density.xlsx`](./ahmedabad_road_density.xlsx)<br>[`Ahmedabad Road Density.png`](./Ahmedabad%20Road%20Density.png) |
 | [`bengaluru_wards_2022.gpkg`](https://github.com/shreyanspeaking-arch/Urban-Mobility-Geographic-Information-Systems/blob/Input-gpkg-files/bengaluru_wards_2022.gpkg) | [`bengaluru_road_density.xlsx`](./bengaluru_road_density.xlsx)<br>[`Bengaluru Road Density.png`](./Bengaluru%20Road%20Density.png) |
+| [`chennai_wards.gpkg`](https://github.com/shreyanspeaking-arch/Urban-Mobility-Geographic-Information-Systems/blob/Input-gpkg-files/chennai_wards.gpkg) | [`chennai_road_density.xlsx`](./chennai_road_density.xlsx)<br>[`Chennai Road Density.png`](./Chennai%20Road%20Density.png) |
+| [`delhi_wards.gpkg`](https://github.com/shreyanspeaking-arch/Urban-Mobility-Geographic-Information-Systems/blob/Input-gpkg-files/delhi_wards.gpkg) | [`delhi_road_density.xlsx`](./delhi_road_density.xlsx)<br>[`Delhi Road Density.png`](./Delhi%20Road%20Density.png) |
+| [`hyderabad_wards.gpkg`](https://github.com/shreyanspeaking-arch/Urban-Mobility-Geographic-Information-Systems/blob/Input-gpkg-files/hyderabad_wards.gpkg) | [`hyderabad_road_density.xlsx`](./hyderabad_road_density.xlsx)<br>[`Hyderabad Road Density.png`](./Hyderabad%20Road%20Density.png) |
+| [`jaipur_wards.gpkg`](https://github.com/shreyanspeaking-arch/Urban-Mobility-Geographic-Information-Systems/blob/Input-gpkg-files/jaipur_wards.gpkg) | [`jaipur_road_density.xlsx`](./jaipur_road_density.xlsx)<br>[`Jaipur Road Density.png`](./Jaipur%20Road%20Density.png) |
 | [`kolkata_wards_141.gpkg`](https://github.com/shreyanspeaking-arch/Urban-Mobility-Geographic-Information-Systems/blob/Input-gpkg-files/kolkata_wards_141.gpkg) | [`kolkata_road_density.xlsx`](./kolkata_road_density.xlsx)<br>[`Kolkata Road Density.png`](./Kolkata%20Road%20Density.png) |
 | [`mumbai_electoral_wards_2017.gpkg`](https://github.com/shreyanspeaking-arch/Urban-Mobility-Geographic-Information-Systems/blob/Input-gpkg-files/mumbai_electoral_wards_2017.gpkg) | [`mumbai_road_density.xlsx`](./mumbai_road_density.xlsx)<br>[`Mumbai Road Density.png`](./Mumbai%20Road%20Density.png) |
 
@@ -58,6 +62,8 @@ Estimates the road density of every ward in a city, using the drivable road netw
 | | |
 |:-:|:-:|
 | **Ahmedabad**<br><img src="./Ahmedabad%20Road%20Density.png" alt="Ahmedabad wards shaded by road density" width="400"> | **Bengaluru**<br><img src="./Bengaluru%20Road%20Density.png" alt="Bengaluru wards shaded by road density" width="400"> |
+| **Chennai**<br><img src="./Chennai%20Road%20Density.png" alt="Chennai wards shaded by road density" width="400"> | **Delhi**<br><img src="./Delhi%20Road%20Density.png" alt="Delhi wards shaded by road density" width="400"> |
+| **Hyderabad**<br><img src="./Hyderabad%20Road%20Density.png" alt="Hyderabad wards shaded by road density" width="400"> | **Jaipur**<br><img src="./Jaipur%20Road%20Density.png" alt="Jaipur wards shaded by road density" width="400"> |
 | **Kolkata**<br><img src="./Kolkata%20Road%20Density.png" alt="Kolkata wards shaded by road density" width="400"> | **Mumbai**<br><img src="./Mumbai%20Road%20Density.png" alt="Mumbai wards shaded by road density" width="400"> |
 
 ---
