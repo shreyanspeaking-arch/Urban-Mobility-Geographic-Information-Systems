@@ -46,13 +46,23 @@ Computes the perimeter of every ward in a city from a ward-boundary file, saves 
 
 | Input | Output |
 |---|---|
+| [`ahmedabad_wards.gpkg`](https://github.com/shreyanspeaking-arch/Urban-Mobility-Geographic-Information-Systems/blob/Input-gpkg-files/ahmedabad_wards.gpkg) | [`ahmedabad.xlsx`](./ahmedabad.xlsx)<br>[`ahmedabad.png`](./ahmedabad.png) |
+| [`bengaluru_wards_2022.gpkg`](https://github.com/shreyanspeaking-arch/Urban-Mobility-Geographic-Information-Systems/blob/Input-gpkg-files/bengaluru_wards_2022.gpkg) | [`bengaluru.xlsx`](./bengaluru.xlsx)<br>[`bengaluru.png`](./bengaluru.png) |
+| [`chennai_wards.gpkg`](https://github.com/shreyanspeaking-arch/Urban-Mobility-Geographic-Information-Systems/blob/Input-gpkg-files/chennai_wards.gpkg) | [`chennai.xlsx`](./chennai.xlsx)<br>[`chennai.png`](./chennai.png) |
 | [`delhi_wards.gpkg`](https://github.com/shreyanspeaking-arch/Urban-Mobility-Geographic-Information-Systems/blob/Input-gpkg-files/delhi_wards.gpkg) | [`delhi.xlsx`](./delhi.xlsx)<br>[`delhi.png`](./delhi.png) |
+| [`hyderabad_wards.gpkg`](https://github.com/shreyanspeaking-arch/Urban-Mobility-Geographic-Information-Systems/blob/Input-gpkg-files/hyderabad_wards.gpkg) | [`hyderabad.xlsx`](./hyderabad.xlsx)<br>[`hyderabad.png`](./hyderabad.png) |
+| [`jaipur_wards.gpkg`](https://github.com/shreyanspeaking-arch/Urban-Mobility-Geographic-Information-Systems/blob/Input-gpkg-files/jaipur_wards.gpkg) | [`jaipur.xlsx`](./jaipur.xlsx)<br>[`jaipur.png`](./jaipur.png) |
+| [`kolkata_wards_141.gpkg`](https://github.com/shreyanspeaking-arch/Urban-Mobility-Geographic-Information-Systems/blob/Input-gpkg-files/kolkata_wards_141.gpkg) | [`kolkata.xlsx`](./kolkata.xlsx)<br>[`kolkata.png`](./kolkata.png) |
+| [`mumbai_electoral_wards_2017.gpkg`](https://github.com/shreyanspeaking-arch/Urban-Mobility-Geographic-Information-Systems/blob/Input-gpkg-files/mumbai_electoral_wards_2017.gpkg) | [`mumbai.xlsx`](./mumbai.xlsx)<br>[`mumbai.png`](./mumbai.png) |
 
-**🗺️ Sample map**
+**🗺️ Sample maps**
 
-<p align="center">
-  <img src="./delhi.png" alt="Delhi wards shaded by perimeter" width="720">
-</p>
+| | |
+|:-:|:-:|
+| **Ahmedabad**<br><img src="./ahmedabad.png" alt="Ahmedabad wards shaded by perimeter" width="400"> | **Bengaluru**<br><img src="./bengaluru.png" alt="Bengaluru wards shaded by perimeter" width="400"> |
+| **Chennai**<br><img src="./chennai.png" alt="Chennai wards shaded by perimeter" width="400"> | **Delhi**<br><img src="./delhi.png" alt="Delhi wards shaded by perimeter" width="400"> |
+| **Hyderabad**<br><img src="./hyderabad.png" alt="Hyderabad wards shaded by perimeter" width="400"> | **Jaipur**<br><img src="./jaipur.png" alt="Jaipur wards shaded by perimeter" width="400"> |
+| **Kolkata**<br><img src="./kolkata.png" alt="Kolkata wards shaded by perimeter" width="400"> | **Mumbai**<br><img src="./mumbai.png" alt="Mumbai wards shaded by perimeter" width="400"> |
 
 ---
 
