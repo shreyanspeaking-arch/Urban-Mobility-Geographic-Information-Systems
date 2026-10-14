@@ -71,9 +71,12 @@ r1.to_excel(f+'.xlsx',index=False)
 fig,ax=plt.subplots(figsize=(6,6))
 g.plot(ax=ax,color='lightgrey')
 g.boundary.plot(ax=ax,color='black',linewidth=1,label='Ward boundary')
-r2.plot(ax=ax,color='red',markersize=20,label='Subway')
-r3.plot(ax=ax,color='blue',markersize=20,label='Suburban/Local Rail')
-r4.plot(ax=ax,color='forestgreen',markersize=20,label='Unknown/Other System')
+if len(r2)>0:
+    r2.plot(ax=ax,color='red',markersize=20,label='Subway')
+if len(r3)>0:
+    r3.plot(ax=ax,color='blue',markersize=20,label='Suburban/Local Rail')
+if len(r4)>0:
+    r4.plot(ax=ax,color='forestgreen',markersize=20,label='Unknown/Other System')
 ax.set_title('Map Displaying the Presence of Railway Stations in wards')
 ax.get_xaxis().set_visible(True)
 ax.get_yaxis().set_visible(True)
