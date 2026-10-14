@@ -54,21 +54,10 @@ Counts the healthcare facilities in every ward of a city, using OpenStreetMap da
 
 **🗺️ Sample maps**
 
-<p align="center">
-  <img src="./Kolkata%20Healthcare%20Facilities%20by%20Number%20in%20each%20Ward.png" alt="Kolkata wards coloured by the number of healthcare facilities" width="720">
-</p>
-
-<p align="center">
-  <img src="./Kolkata%20Healthcare%20Facilities%20by%20Ward%20Area.png" alt="Kolkata wards shaded by healthcare facilities per km²" width="720">
-</p>
-
-<p align="center">
-  <img src="./Mumbai%20Healthcare%20Facilities%20by%20Number%20in%20each%20Ward.png" alt="Mumbai wards coloured by the number of healthcare facilities" width="720">
-</p>
-
-<p align="center">
-  <img src="./Mumbai%20Healthcare%20Facilities%20by%20Ward%20Area.png" alt="Mumbai wards shaded by healthcare facilities per km²" width="720">
-</p>
+| City | Number of facilities in each ward | Facilities per km² |
+|:-:|:-:|:-:|
+| **Kolkata** | <img src="./Kolkata%20Healthcare%20Facilities%20by%20Number%20in%20each%20Ward.png" alt="Kolkata wards coloured by the number of healthcare facilities" width="400"> | <img src="./Kolkata%20Healthcare%20Facilities%20by%20Ward%20Area.png" alt="Kolkata wards shaded by healthcare facilities per km²" width="400"> |
+| **Mumbai** | <img src="./Mumbai%20Healthcare%20Facilities%20by%20Number%20in%20each%20Ward.png" alt="Mumbai wards coloured by the number of healthcare facilities" width="400"> | <img src="./Mumbai%20Healthcare%20Facilities%20by%20Ward%20Area.png" alt="Mumbai wards shaded by healthcare facilities per km²" width="400"> |
 
 ---
 
