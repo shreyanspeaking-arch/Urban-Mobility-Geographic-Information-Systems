@@ -52,6 +52,9 @@ Finds every railway station inside a city's wards using OpenStreetMap data, lets
 | [`ahmedabad_wards.gpkg`](https://github.com/shreyanspeaking-arch/Urban-Mobility-Geographic-Information-Systems/blob/Input-gpkg-files/ahmedabad_wards.gpkg) | [`Railway_Stations_in_Ahmedabad.xlsx`](./Railway_Stations_in_Ahmedabad.xlsx)<br>[`Railway_Stations_in_Ahmedabad.png`](./Railway_Stations_in_Ahmedabad.png) |
 | [`bengaluru_wards_2022.gpkg`](https://github.com/shreyanspeaking-arch/Urban-Mobility-Geographic-Information-Systems/blob/Input-gpkg-files/bengaluru_wards_2022.gpkg) | [`Railway_Stations_in_Bengaluru.xlsx`](./Railway_Stations_in_Bengaluru.xlsx)<br>[`Railway_Stations_in_Bengaluru.png`](./Railway_Stations_in_Bengaluru.png) |
 | [`chennai_wards.gpkg`](https://github.com/shreyanspeaking-arch/Urban-Mobility-Geographic-Information-Systems/blob/Input-gpkg-files/chennai_wards.gpkg) | [`Railway_Stations_in_Chennai.xlsx`](./Railway_Stations_in_Chennai.xlsx)<br>[`Railway_Stations_in_Chennai.png`](./Railway_Stations_in_Chennai.png) |
+| [`delhi_wards.gpkg`](https://github.com/shreyanspeaking-arch/Urban-Mobility-Geographic-Information-Systems/blob/Input-gpkg-files/delhi_wards.gpkg) | [`Railway_Stations_in_Delhi.xlsx`](./Railway_Stations_in_Delhi.xlsx)<br>[`Railway_Stations_in_Delhi.png`](./Railway_Stations_in_Delhi.png) |
+| [`hyderabad_wards.gpkg`](https://github.com/shreyanspeaking-arch/Urban-Mobility-Geographic-Information-Systems/blob/Input-gpkg-files/hyderabad_wards.gpkg) | [`Railway_Stations_in_Hyderabad.xlsx`](./Railway_Stations_in_Hyderabad.xlsx)<br>[`Railway_Stations_in_Hyderabad.png`](./Railway_Stations_in_Hyderabad.png) |
+| [`jaipur_wards.gpkg`](https://github.com/shreyanspeaking-arch/Urban-Mobility-Geographic-Information-Systems/blob/Input-gpkg-files/jaipur_wards.gpkg) | [`Railway_Stations_in_Jaipur.xlsx`](./Railway_Stations_in_Jaipur.xlsx)<br>[`Railway_Stations_in_Jaipur.png`](./Railway_Stations_in_Jaipur.png) |
 | [`kolkata_wards_141.gpkg`](https://github.com/shreyanspeaking-arch/Urban-Mobility-Geographic-Information-Systems/blob/Input-gpkg-files/kolkata_wards_141.gpkg) | [`Railway_Stations_in_Kolkata.xlsx`](./Railway_Stations_in_Kolkata.xlsx)<br>[`Railway_Stations_in_Kolkata.png`](./Railway_Stations_in_Kolkata.png) |
 | [`mumbai_electoral_wards_2017.gpkg`](https://github.com/shreyanspeaking-arch/Urban-Mobility-Geographic-Information-Systems/blob/Input-gpkg-files/mumbai_electoral_wards_2017.gpkg) | [`Railway_Stations_in_Mumbai.xlsx`](./Railway_Stations_in_Mumbai.xlsx)<br>[`Railway_Stations_in_Mumbai.png`](./Railway_Stations_in_Mumbai.png) |
 
@@ -60,8 +63,9 @@ Finds every railway station inside a city's wards using OpenStreetMap data, lets
 | | |
 |:-:|:-:|
 | **Ahmedabad**<br><img src="./Railway_Stations_in_Ahmedabad.png" alt="Railway stations in Ahmedabad on the ward map" width="400"> | **Bengaluru**<br><img src="./Railway_Stations_in_Bengaluru.png" alt="Railway stations in Bengaluru on the ward map" width="400"> |
-| **Chennai**<br><img src="./Railway_Stations_in_Chennai.png" alt="Railway stations in Chennai on the ward map" width="400"> | **Kolkata**<br><img src="./Railway_Stations_in_Kolkata.png" alt="Railway stations in Kolkata on the ward map" width="400"> |
-| **Mumbai**<br><img src="./Railway_Stations_in_Mumbai.png" alt="Railway stations in Mumbai on the ward map" width="400"> |  |
+| **Chennai**<br><img src="./Railway_Stations_in_Chennai.png" alt="Railway stations in Chennai on the ward map" width="400"> | **Delhi**<br><img src="./Railway_Stations_in_Delhi.png" alt="Railway stations in Delhi on the ward map" width="400"> |
+| **Hyderabad**<br><img src="./Railway_Stations_in_Hyderabad.png" alt="Railway stations in Hyderabad on the ward map" width="400"> | **Jaipur**<br><img src="./Railway_Stations_in_Jaipur.png" alt="Railway stations in Jaipur on the ward map" width="400"> |
+| **Kolkata**<br><img src="./Railway_Stations_in_Kolkata.png" alt="Railway stations in Kolkata on the ward map" width="400"> | **Mumbai**<br><img src="./Railway_Stations_in_Mumbai.png" alt="Railway stations in Mumbai on the ward map" width="400"> |
 
 ---
 
