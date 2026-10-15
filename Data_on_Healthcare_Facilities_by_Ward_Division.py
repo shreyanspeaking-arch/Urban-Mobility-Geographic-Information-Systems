@@ -15,7 +15,7 @@ if 'geometry' not in list(g.columns):
     g=gpd.GeoDataFrame(g)
 g=g.to_crs('EPSG:4326')
 g=g[['ward','geometry']]
-h=ox.features_from_polygon(g.geometry.union_all(),tags={'amenity':['baby_hatch','clinic','dentist','doctors','hospital','nursing_home'],'healthcare':True,'emergency':True})
+h=ox.features_from_polygon(g.geometry.union_all(),tags={'amenity':['baby_hatch','clinic','dentist','doctors','hospital','nursing_home'],'healthcare':True,'emergency':['ambulance_station']})
 h=h.to_crs('EPSG:4326')
 h['geometry']=h.representative_point()
 r=h.sjoin(g, how='inner', predicate='intersects')
