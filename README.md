@@ -55,6 +55,130 @@ Computes the area of every ward in a city from a ward-boundary file, saves the l
 | [`kolkata_wards_141.gpkg`](https://github.com/shreyanspeaking-arch/Urban-Mobility-Geographic-Information-Systems/blob/Input-gpkg-files/kolkata_wards_141.gpkg) | [`kolkata.xlsx`](./kolkata.xlsx)<br>[`kolkata.png`](./kolkata.png) |
 | [`mumbai_electoral_wards_2017.gpkg`](https://github.com/shreyanspeaking-arch/Urban-Mobility-Geographic-Information-Systems/blob/Input-gpkg-files/mumbai_electoral_wards_2017.gpkg) | [`mumbai.xlsx`](./mumbai.xlsx)<br>[`mumbai.png`](./mumbai.png) |
 
+<!-- preview:start -->
+**📋 First five rows**
+
+<details>
+<summary><code>ahmedabad.xlsx</code></summary>
+
+| WARD | Area (in km2) |
+|---|---|
+| 48 RAMOL HATHIJAN | 32.441 |
+| 47 VATVA | 11.916 |
+| 46 LAMBHA | 50.78 |
+| 45 ISANPUR | 4.314 |
+| 44 KHOKHRA | 3.782 |
+
+<sub>48 rows in total.</sub>
+
+</details>
+
+<details>
+<summary><code>bengaluru.xlsx</code></summary>
+
+| WARD | Area (in km2) |
+|---|---|
+| Kempegowda Ward | 11.647 |
+| Chowdeswari Ward | 7.129 |
+| Someshwara Ward | 3.961 |
+| Atturu Layout | 5.272 |
+| Yelahanka Satellite Town | 4.146 |
+
+<sub>243 rows in total.</sub>
+
+</details>
+
+<details>
+<summary><code>chennai.xlsx</code></summary>
+
+| WARD | Area (in km2) |
+|---|---|
+| 119 | 1.399 |
+| 7 | 7.837 |
+| 26 | 4.873 |
+| 174 | 8.452 |
+| 132 | 1.422 |
+
+<sub>201 rows in total.</sub>
+
+</details>
+
+<details>
+<summary><code>delhi.xlsx</code></summary>
+
+| WARD | Area (in km2) |
+|---|---|
+| DELHI CANTT CHARGE 1 | 1.303 |
+| DELHI CANTT CHARGE 2 | 8.954 |
+| DELHI CANTT CHARGE 4 | 8.568 |
+| DELHI CANTT CHARGE 5 | 3.571 |
+| DELHI CANTT CHARGE 6 | 15.588 |
+
+<sub>290 rows in total.</sub>
+
+</details>
+
+<details>
+<summary><code>hyderabad.xlsx</code></summary>
+
+| WARD | Area (in km2) |
+|---|---|
+| Ward 91 Khairatabad | 8.776 |
+| Ward 105 Gachibowli | 50.049 |
+| Ward 60 Rajendra Nagar | 21.655 |
+| Ward 95 Jubilee Hills | 8.833 |
+| Ward 6 Nacharam | 5.211 |
+
+<sub>145 rows in total.</sub>
+
+</details>
+
+<details>
+<summary><code>jaipur.xlsx</code></summary>
+
+| WARD | Area (in km2) |
+|---|---|
+| 76 | 11.393 |
+| 34 | 40.833 |
+| 11 | 10.11 |
+| 12 | 21.085 |
+| 13 | 7.15 |
+
+<sub>77 rows in total.</sub>
+
+</details>
+
+<details>
+<summary><code>kolkata.xlsx</code></summary>
+
+| WARD | Area (in km2) |
+|---|---|
+| 93 | 1.868 |
+| 61 | 0.643 |
+| 86 | 0.888 |
+| 90 | 1.146 |
+| 26 | 0.353 |
+
+<sub>141 rows in total.</sub>
+
+</details>
+
+<details>
+<summary><code>mumbai.xlsx</code></summary>
+
+| WARD | Area (in km2) |
+|---|---|
+| A | 3.426 |
+| A | 5.045 |
+| B | 1.133 |
+| A | 3.352 |
+| E | 1.745 |
+
+<sub>227 rows in total.</sub>
+
+</details>
+<!-- preview:end -->
+
 **🗺️ Sample maps**
 
 | | |
