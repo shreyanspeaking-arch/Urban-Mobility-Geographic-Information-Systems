@@ -57,6 +57,130 @@ Estimates the road density of every ward in a city, using the drivable road netw
 | [`kolkata_wards_141.gpkg`](https://github.com/shreyanspeaking-arch/Urban-Mobility-Geographic-Information-Systems/blob/Input-gpkg-files/kolkata_wards_141.gpkg) | [`kolkata_road_density.xlsx`](./kolkata_road_density.xlsx)<br>[`Kolkata Road Density.png`](./Kolkata%20Road%20Density.png) |
 | [`mumbai_electoral_wards_2017.gpkg`](https://github.com/shreyanspeaking-arch/Urban-Mobility-Geographic-Information-Systems/blob/Input-gpkg-files/mumbai_electoral_wards_2017.gpkg) | [`mumbai_road_density.xlsx`](./mumbai_road_density.xlsx)<br>[`Mumbai Road Density.png`](./Mumbai%20Road%20Density.png) |
 
+<!-- preview:start -->
+**📋 First five rows**
+
+<details>
+<summary><code>ahmedabad_road_density.xlsx</code></summary>
+
+| ward | Approximate Total Length of roads in ward(in km) | Area of ward(in sqkm) | Road Density (km/km2) |
+|---|---|---|---|
+| 01 GOTA | 342.925 | 33.814 | 10.142 |
+| 02 CHANDLODIA | 145.055 | 13.711 | 10.58 |
+| 03 CHANDKHEDA | 200.684 | 11.918 | 16.838 |
+| 04 SABARMATI | 142.004 | 9.793 | 14.501 |
+| 05 RANIP | 84.404 | 7.559 | 11.166 |
+
+<sub>48 rows in total; the `geometry` column (ward shapes) is left out.</sub>
+
+</details>
+
+<details>
+<summary><code>bengaluru_road_density.xlsx</code></summary>
+
+| ward | Approximate Total Length of roads in ward(in km) | Area of ward(in sqkm) | Road Density (km/km2) |
+|---|---|---|---|
+| 1 | 92.179 | 11.373 | 8.105 |
+| 10 | 80.659 | 5.847 | 13.795 |
+| 100 | 79.985 | 2.627 | 30.447 |
+| 101 | 31.392 | 0.816 | 38.472 |
+| 102 | 41.264 | 1.433 | 28.791 |
+
+<sub>243 rows in total; the `geometry` column (ward shapes) is left out.</sub>
+
+</details>
+
+<details>
+<summary><code>chennai_road_density.xlsx</code></summary>
+
+| ward | Approximate Total Length of roads in ward(in km) | Area of ward(in sqkm) | Road Density (km/km2) |
+|---|---|---|---|
+| 0 | 47.018 | 5.72 | 8.22 |
+| 1 | 20.651 | 1.83 | 11.285 |
+| 2 | 15.279 | 2.83 | 5.398 |
+| 3 | 25.454 | 2.956 | 8.612 |
+| 4 | 24.715 | 1.651 | 14.968 |
+
+<sub>201 rows in total; the `geometry` column (ward shapes) is left out.</sub>
+
+</details>
+
+<details>
+<summary><code>delhi_road_density.xlsx</code></summary>
+
+| ward | Approximate Total Length of roads in ward(in km) | Area of ward(in sqkm) | Road Density (km/km2) |
+|---|---|---|---|
+| 1 | 222.007 | 20.272 | 10.952 |
+| 10 | 64.104 | 4.779 | 13.413 |
+| 100 | 31.187 | 2.244 | 13.9 |
+| 101 | 53.127 | 2.217 | 23.964 |
+| 102 | 20.099 | 0.623 | 32.257 |
+
+<sub>290 rows in total; the `geometry` column (ward shapes) is left out.</sub>
+
+</details>
+
+<details>
+<summary><code>hyderabad_road_density.xlsx</code></summary>
+
+| ward | Approximate Total Length of roads in ward(in km) | Area of ward(in sqkm) | Road Density (km/km2) |
+|---|---|---|---|
+| Ward 1 Kapra | 162.418 | 8.376 | 19.392 |
+| Ward 10 Uppal | 163.079 | 8.328 | 19.582 |
+| Ward 100 Sanath Nagar | 54.236 | 2.576 | 21.058 |
+| Ward 101 Erragadda | 38.614 | 1.545 | 24.987 |
+| Ward 102 Rahmath Nagar | 36.729 | 0.968 | 37.929 |
+
+<sub>145 rows in total; the `geometry` column (ward shapes) is left out.</sub>
+
+</details>
+
+<details>
+<summary><code>jaipur_road_density.xlsx</code></summary>
+
+| ward | Approximate Total Length of roads in ward(in km) | Area of ward(in sqkm) | Road Density (km/km2) |
+|---|---|---|---|
+| 1 | 285.192 | 21.039 | 13.556 |
+| 2 | 142.502 | 5.091 | 27.993 |
+| 3 | 74.946 | 2.489 | 30.113 |
+| 4 | 94.783 | 7.908 | 11.986 |
+| 5 | 76.443 | 2.94 | 25.999 |
+
+<sub>77 rows in total; the `geometry` column (ward shapes) is left out.</sub>
+
+</details>
+
+<details>
+<summary><code>kolkata_road_density.xlsx</code></summary>
+
+| ward | Approximate Total Length of roads in ward(in km) | Area of ward(in sqkm) | Road Density (km/km2) |
+|---|---|---|---|
+| 1 | 22.896 | 1.373 | 16.677 |
+| 10 | 12.078 | 0.438 | 27.546 |
+| 100 | 37.108 | 1.406 | 26.398 |
+| 101 | 47.411 | 1.676 | 28.282 |
+| 102 | 19.953 | 0.985 | 20.25 |
+
+<sub>141 rows in total; the `geometry` column (ward shapes) is left out.</sub>
+
+</details>
+
+<details>
+<summary><code>mumbai_road_density.xlsx</code></summary>
+
+| ward | Approximate Total Length of roads in ward(in km) | Area of ward(in sqkm) | Road Density (km/km2) |
+|---|---|---|---|
+| 1 | 19.877 | 4.347 | 4.573 |
+| 2 | 16.493 | 1.821 | 9.059 |
+| 3 | 17.221 | 1.642 | 10.489 |
+| 4 | 7.375 | 0.615 | 11.999 |
+| 5 | 12.552 | 0.841 | 14.929 |
+
+<sub>227 rows in total; the `geometry` column (ward shapes) is left out.</sub>
+
+</details>
+<!-- preview:end -->
+
 **🗺️ Sample maps**
 
 | | |
