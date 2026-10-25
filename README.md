@@ -185,10 +185,10 @@ Estimates the road density of every ward in a city, using the drivable road netw
 
 | | |
 |:-:|:-:|
-| **Ahmedabad**<br><img src="./Ahmedabad%20Road%20Density.png" alt="Ahmedabad wards shaded by road density" width="400"> | **Bengaluru**<br><img src="./Bengaluru%20Road%20Density.png" alt="Bengaluru wards shaded by road density" width="400"> |
-| **Chennai**<br><img src="./Chennai%20Road%20Density.png" alt="Chennai wards shaded by road density" width="400"> | **Delhi**<br><img src="./Delhi%20Road%20Density.png" alt="Delhi wards shaded by road density" width="400"> |
-| **Hyderabad**<br><img src="./Hyderabad%20Road%20Density.png" alt="Hyderabad wards shaded by road density" width="400"> | **Jaipur**<br><img src="./Jaipur%20Road%20Density.png" alt="Jaipur wards shaded by road density" width="400"> |
-| **Kolkata**<br><img src="./Kolkata%20Road%20Density.png" alt="Kolkata wards shaded by road density" width="400"> | **Mumbai**<br><img src="./Mumbai%20Road%20Density.png" alt="Mumbai wards shaded by road density" width="400"> |
+| **Ahmedabad**<br><img src="./Ahmedabad%20Road%20Density.png" alt="Ahmedabad wards shaded by road density" width="400"><br><sub>Ahmedabad Road Density.png</sub> | **Bengaluru**<br><img src="./Bengaluru%20Road%20Density.png" alt="Bengaluru wards shaded by road density" width="400"><br><sub>Bengaluru Road Density.png</sub> |
+| **Chennai**<br><img src="./Chennai%20Road%20Density.png" alt="Chennai wards shaded by road density" width="400"><br><sub>Chennai Road Density.png</sub> | **Delhi**<br><img src="./Delhi%20Road%20Density.png" alt="Delhi wards shaded by road density" width="400"><br><sub>Delhi Road Density.png</sub> |
+| **Hyderabad**<br><img src="./Hyderabad%20Road%20Density.png" alt="Hyderabad wards shaded by road density" width="400"><br><sub>Hyderabad Road Density.png</sub> | **Jaipur**<br><img src="./Jaipur%20Road%20Density.png" alt="Jaipur wards shaded by road density" width="400"><br><sub>Jaipur Road Density.png</sub> |
+| **Kolkata**<br><img src="./Kolkata%20Road%20Density.png" alt="Kolkata wards shaded by road density" width="400"><br><sub>Kolkata Road Density.png</sub> | **Mumbai**<br><img src="./Mumbai%20Road%20Density.png" alt="Mumbai wards shaded by road density" width="400"><br><sub>Mumbai Road Density.png</sub> |
 
 ---
 
