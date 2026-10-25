@@ -183,10 +183,10 @@ Computes the area of every ward in a city from a ward-boundary file, saves the l
 
 | | |
 |:-:|:-:|
-| **Ahmedabad**<br><img src="./ahmedabad.png" alt="Ahmedabad wards shaded by area" width="400"> | **Bengaluru**<br><img src="./bengaluru.png" alt="Bengaluru wards shaded by area" width="400"> |
-| **Chennai**<br><img src="./chennai.png" alt="Chennai wards shaded by area" width="400"> | **Delhi**<br><img src="./delhi.png" alt="Delhi wards shaded by area" width="400"> |
-| **Hyderabad**<br><img src="./hyderabad.png" alt="Hyderabad wards shaded by area" width="400"> | **Jaipur**<br><img src="./jaipur.png" alt="Jaipur wards shaded by area" width="400"> |
-| **Kolkata**<br><img src="./kolkata.png" alt="Kolkata wards shaded by area" width="400"> | **Mumbai**<br><img src="./mumbai.png" alt="Mumbai wards shaded by area" width="400"> |
+| **Ahmedabad**<br><img src="./ahmedabad.png" alt="Ahmedabad wards shaded by area" width="400"><br><sub>ahmedabad.png</sub> | **Bengaluru**<br><img src="./bengaluru.png" alt="Bengaluru wards shaded by area" width="400"><br><sub>bengaluru.png</sub> |
+| **Chennai**<br><img src="./chennai.png" alt="Chennai wards shaded by area" width="400"><br><sub>chennai.png</sub> | **Delhi**<br><img src="./delhi.png" alt="Delhi wards shaded by area" width="400"><br><sub>delhi.png</sub> |
+| **Hyderabad**<br><img src="./hyderabad.png" alt="Hyderabad wards shaded by area" width="400"><br><sub>hyderabad.png</sub> | **Jaipur**<br><img src="./jaipur.png" alt="Jaipur wards shaded by area" width="400"><br><sub>jaipur.png</sub> |
+| **Kolkata**<br><img src="./kolkata.png" alt="Kolkata wards shaded by area" width="400"><br><sub>kolkata.png</sub> | **Mumbai**<br><img src="./mumbai.png" alt="Mumbai wards shaded by area" width="400"><br><sub>mumbai.png</sub> |
 
 ---
 
