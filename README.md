@@ -186,10 +186,10 @@ Finds every railway station inside a city's wards using OpenStreetMap data, lets
 
 | | |
 |:-:|:-:|
-| **Ahmedabad**<br><img src="./Railway_Stations_in_Ahmedabad.png" alt="Railway stations in Ahmedabad on the ward map" width="400"> | **Bengaluru**<br><img src="./Railway_Stations_in_Bengaluru.png" alt="Railway stations in Bengaluru on the ward map" width="400"> |
-| **Chennai**<br><img src="./Railway_Stations_in_Chennai.png" alt="Railway stations in Chennai on the ward map" width="400"> | **Delhi**<br><img src="./Railway_Stations_in_Delhi.png" alt="Railway stations in Delhi on the ward map" width="400"> |
-| **Hyderabad**<br><img src="./Railway_Stations_in_Hyderabad.png" alt="Railway stations in Hyderabad on the ward map" width="400"> | **Jaipur**<br><img src="./Railway_Stations_in_Jaipur.png" alt="Railway stations in Jaipur on the ward map" width="400"> |
-| **Kolkata**<br><img src="./Railway_Stations_in_Kolkata.png" alt="Railway stations in Kolkata on the ward map" width="400"> | **Mumbai**<br><img src="./Railway_Stations_in_Mumbai.png" alt="Railway stations in Mumbai on the ward map" width="400"> |
+| **Ahmedabad**<br><img src="./Railway_Stations_in_Ahmedabad.png" alt="Railway stations in Ahmedabad on the ward map" width="400"><br><sub>Railway_Stations_in_Ahmedabad.png</sub> | **Bengaluru**<br><img src="./Railway_Stations_in_Bengaluru.png" alt="Railway stations in Bengaluru on the ward map" width="400"><br><sub>Railway_Stations_in_Bengaluru.png</sub> |
+| **Chennai**<br><img src="./Railway_Stations_in_Chennai.png" alt="Railway stations in Chennai on the ward map" width="400"><br><sub>Railway_Stations_in_Chennai.png</sub> | **Delhi**<br><img src="./Railway_Stations_in_Delhi.png" alt="Railway stations in Delhi on the ward map" width="400"><br><sub>Railway_Stations_in_Delhi.png</sub> |
+| **Hyderabad**<br><img src="./Railway_Stations_in_Hyderabad.png" alt="Railway stations in Hyderabad on the ward map" width="400"><br><sub>Railway_Stations_in_Hyderabad.png</sub> | **Jaipur**<br><img src="./Railway_Stations_in_Jaipur.png" alt="Railway stations in Jaipur on the ward map" width="400"><br><sub>Railway_Stations_in_Jaipur.png</sub> |
+| **Kolkata**<br><img src="./Railway_Stations_in_Kolkata.png" alt="Railway stations in Kolkata on the ward map" width="400"><br><sub>Railway_Stations_in_Kolkata.png</sub> | **Mumbai**<br><img src="./Railway_Stations_in_Mumbai.png" alt="Railway stations in Mumbai on the ward map" width="400"><br><sub>Railway_Stations_in_Mumbai.png</sub> |
 
 ---
 
