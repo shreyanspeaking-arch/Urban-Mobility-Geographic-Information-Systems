@@ -58,6 +58,130 @@ Counts the educational institutes in every ward of a city, using OpenStreetMap d
 | [`kolkata_wards_141.gpkg`](https://github.com/shreyanspeaking-arch/Urban-Mobility-Geographic-Information-Systems/blob/Input-gpkg-files/kolkata_wards_141.gpkg) | [`Kolkata_Educational_Institutions_by_Ward.xlsx`](./Kolkata_Educational_Institutions_by_Ward.xlsx)<br>[`Kolkata Educational Institutions by Number in each Ward.png`](./Kolkata%20Educational%20Institutions%20by%20Number%20in%20each%20Ward.png)<br>[`Kolkata No of Educations Institutions per unit Ward Area.png`](./Kolkata%20No%20of%20Educations%20Institutions%20per%20unit%20Ward%20Area.png) |
 | [`mumbai_electoral_wards_2017.gpkg`](https://github.com/shreyanspeaking-arch/Urban-Mobility-Geographic-Information-Systems/blob/Input-gpkg-files/mumbai_electoral_wards_2017.gpkg) | [`Mumbai_Educational_Institutions_by_Ward.xlsx`](./Mumbai_Educational_Institutions_by_Ward.xlsx)<br>[`Mumbai Educational Institutions by Number in each Ward.png`](./Mumbai%20Educational%20Institutions%20by%20Number%20in%20each%20Ward.png)<br>[`Mumbai No of Educations Institutions per unit Ward Area.png`](./Mumbai%20No%20of%20Educations%20Institutions%20per%20unit%20Ward%20Area.png) |
 
+<!-- preview:start -->
+**📋 First five rows**
+
+<details>
+<summary><code>Ahmedabad_Educational_Institutions_by_Ward.xlsx</code></summary>
+
+| ward | Count | Area (in m2) | Area (in km2) | Density |
+|---|---|---|---|---|
+| 48 RAMOL HATHIJAN | 0 | 30786045.509 | 30.786 | 0 |
+| 47 VATVA | 0 | 11306182.516 | 11.306 | 0 |
+| 46 LAMBHA | 0 | 48163155.266 | 48.163 | 0 |
+| 45 ISANPUR | 0 | 4092708.236 | 4.093 | 0 |
+| 44 KHOKHRA | 0 | 3588188.239 | 3.588 | 0 |
+
+<sub>48 rows in total; the `geometry` column (ward shapes) is left out.</sub>
+
+</details>
+
+<details>
+<summary><code>Bengaluru_Educational_Institutions_by_Ward.xlsx</code></summary>
+
+| ward | Count | Area (in m2) | Area (in km2) | Density |
+|---|---|---|---|---|
+| 1 | 34 | 11373055.257 | 11.373 | 2.99 |
+| 2 | 3 | 6960329.536 | 6.96 | 0.431 |
+| 3 | 13 | 3867141.054 | 3.867 | 3.362 |
+| 4 | 11 | 5146416.14 | 5.146 | 2.137 |
+| 5 | 27 | 4048418.451 | 4.048 | 6.669 |
+
+<sub>243 rows in total; the `geometry` column (ward shapes) is left out.</sub>
+
+</details>
+
+<details>
+<summary><code>Chennai_Educational_Institutions_by_Ward.xlsx</code></summary>
+
+| ward | Count | Area (in m2) | Area (in km2) | Density |
+|---|---|---|---|---|
+| 119 | 8 | 1381005.254 | 1.381 | 5.793 |
+| 7 | 0 | 7735900.17 | 7.736 | 0 |
+| 26 | 0 | 4809087.648 | 4.809 | 0 |
+| 174 | 10 | 8340795.421 | 8.341 | 1.199 |
+| 132 | 8 | 1403502.758 | 1.404 | 5.7 |
+
+<sub>201 rows in total; the `geometry` column (ward shapes) is left out.</sub>
+
+</details>
+
+<details>
+<summary><code>Delhi_Educational_Institutions_by_Ward.xlsx</code></summary>
+
+| ward | Count | Area (in m2) | Area (in km2) | Density |
+|---|---|---|---|---|
+| CANT_1 | 0 | 1274680.409 | 1.275 | 0 |
+| CANT_2 | 5 | 8760167.474 | 8.76 | 0.571 |
+| CANT_4 | 4 | 8382204.276 | 8.382 | 0.477 |
+| CANT_5 | 3 | 3493525.693 | 3.494 | 0.859 |
+| CANT_6 | 6 | 15247664.011 | 15.248 | 0.394 |
+
+<sub>290 rows in total; the `geometry` column (ward shapes) is left out.</sub>
+
+</details>
+
+<details>
+<summary><code>Hyderabad_Educational_Institutions_by_Ward.xlsx</code></summary>
+
+| ward | Count | Area (in m2) | Area (in km2) | Density |
+|---|---|---|---|---|
+| Ward 91 Khairatabad | 23 | 8614755.376 | 8.615 | 2.67 |
+| Ward 105 Gachibowli | 54 | 49103996.012 | 49.104 | 1.1 |
+| Ward 60 Rajendra Nagar | 15 | 21251826.188 | 21.252 | 0.706 |
+| Ward 95 Jubilee Hills | 26 | 8668646.165 | 8.669 | 2.999 |
+| Ward 6 Nacharam | 9 | 5116544.605 | 5.117 | 1.759 |
+
+<sub>145 rows in total; the `geometry` column (ward shapes) is left out.</sub>
+
+</details>
+
+<details>
+<summary><code>Jaipur_Educational_Institutions_by_Ward.xlsx</code></summary>
+
+| ward | Count | Area (in m2) | Area (in km2) | Density |
+|---|---|---|---|---|
+| 76 | 1 | 11056093.311 | 11.056 | 0.09 |
+| 34 | 3 | 39624172.69 | 39.624 | 0.076 |
+| 11 | 7 | 9802919.284 | 9.803 | 0.714 |
+| 12 | 4 | 20441244.988 | 20.441 | 0.196 |
+| 13 | 5 | 6933213.746 | 6.933 | 0.721 |
+
+<sub>77 rows in total; the `geometry` column (ward shapes) is left out.</sub>
+
+</details>
+
+<details>
+<summary><code>Kolkata_Educational_Institutions_by_Ward.xlsx</code></summary>
+
+| ward | Count | Area (in m2) | Area (in km2) | Density |
+|---|---|---|---|---|
+| 93 | 10 | 1867950.649 | 1.868 | 5.353 |
+| 61 | 3 | 642597.239 | 0.643 | 4.669 |
+| 86 | 5 | 887935.917 | 0.888 | 5.631 |
+| 90 | 2 | 1145646.051 | 1.146 | 1.746 |
+| 26 | 1 | 352579.077 | 0.353 | 2.836 |
+
+<sub>141 rows in total; the `geometry` column (ward shapes) is left out.</sub>
+
+</details>
+
+<details>
+<summary><code>Mumbai_Educational_Institutions_by_Ward.xlsx</code></summary>
+
+| ward | Count | Area (in m2) | Area (in km2) | Density |
+|---|---|---|---|---|
+| 227 | 12 | 3245346.262 | 3.245 | 3.698 |
+| 225 | 26 | 4778852.65 | 4.779 | 5.441 |
+| 224 | 1 | 1073583.608 | 1.074 | 0.931 |
+| 226 | 12 | 3175394.776 | 3.175 | 3.779 |
+| 208 | 0 | 1653071.115 | 1.653 | 0 |
+
+<sub>227 rows in total; the `geometry` column (ward shapes) is left out.</sub>
+
+</details>
+<!-- preview:end -->
+
 **🗺️ Sample maps**
 
 | City | Number of institutes in each ward | Institutes per km² |
