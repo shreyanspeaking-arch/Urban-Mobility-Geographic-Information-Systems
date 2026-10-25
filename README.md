@@ -58,6 +58,130 @@ Finds every railway station inside a city's wards using OpenStreetMap data, lets
 | [`kolkata_wards_141.gpkg`](https://github.com/shreyanspeaking-arch/Urban-Mobility-Geographic-Information-Systems/blob/Input-gpkg-files/kolkata_wards_141.gpkg) | [`Railway_Stations_in_Kolkata.xlsx`](./Railway_Stations_in_Kolkata.xlsx)<br>[`Railway_Stations_in_Kolkata.png`](./Railway_Stations_in_Kolkata.png) |
 | [`mumbai_electoral_wards_2017.gpkg`](https://github.com/shreyanspeaking-arch/Urban-Mobility-Geographic-Information-Systems/blob/Input-gpkg-files/mumbai_electoral_wards_2017.gpkg) | [`Railway_Stations_in_Mumbai.xlsx`](./Railway_Stations_in_Mumbai.xlsx)<br>[`Railway_Stations_in_Mumbai.png`](./Railway_Stations_in_Mumbai.png) |
 
+<!-- preview:start -->
+**📋 First five rows**
+
+<details>
+<summary><code>Railway_Stations_in_Ahmedabad.xlsx</code></summary>
+
+| name | operator | network | railway | Kind of Railway |
+|---|---|---|---|---|
+| Naroda | WR | IR | station | Suburban/Local Rail |
+| Vastrapur | WR | IR | station | Suburban/Local Rail |
+| Maninagar | WR | IR | station | Suburban/Local Rail |
+| Sabarmati | WR | IR | station | Suburban/Local Rail |
+| Asarva | WR | IR | station | Suburban/Local Rail |
+
+<sub>48 rows in total; the `geometry` column (ward shapes) is left out; showing 5 of its 32 columns.</sub>
+
+</details>
+
+<details>
+<summary><code>Railway_Stations_in_Bengaluru.xlsx</code></summary>
+
+| name | operator | network | railway | Kind of Railway |
+|---|---|---|---|---|
+| Bangalore Cantonment | SWR | IR | station | Suburban/Local Rail |
+| Bengaluru East | SWR | IR | station | Suburban/Local Rail |
+| Kengeri | SWR | IR | station | Suburban/Local Rail |
+| Nayandahalli | SWR | IR | station | Suburban/Local Rail |
+| Chikka Banavara | SWR | IR | station | Suburban/Local Rail |
+
+<sub>94 rows in total; the `geometry` column (ward shapes) is left out; showing 5 of its 46 columns.</sub>
+
+</details>
+
+<details>
+<summary><code>Railway_Stations_in_Chennai.xlsx</code></summary>
+
+| name | operator | network | railway | Kind of Railway |
+|---|---|---|---|---|
+| Chennai Chetpet | Southern Railway | IR | station | Suburban/Local Rail |
+| Pattaravakkam | SR | IR | station | Suburban/Local Rail |
+| Anna Nagar West | SR | IR | station | Suburban/Local Rail |
+| Chennai Park Town | SR | IR | station | Suburban/Local Rail |
+| Chennai Park | SR | IR | station | Suburban/Local Rail |
+
+<sub>131 rows in total; the `geometry` column (ward shapes) is left out; showing 5 of its 44 columns.</sub>
+
+</details>
+
+<details>
+<summary><code>Railway_Stations_in_Delhi.xlsx</code></summary>
+
+| name | operator | network | railway | Kind of Railway |
+|---|---|---|---|---|
+| Ramesh Nagar | Delhi Metro Rail Corporation Limited | Delhi Metro | station | Subway |
+| Anand Vihar | Northern Railway | Indian Railways | station | Suburban/Local Rail |
+| Patel Nagar | Delhi Metro Rail Corporation Limited | Delhi Metro | station | Subway |
+| Rithala | Delhi Metro Rail Corporation Limited | Delhi Metro | station | Subway |
+| Pratap Nagar | Delhi Metro Rail Corporation Limited | Delhi Metro | station | Subway |
+
+<sub>267 rows in total; the `geometry` column (ward shapes) is left out; showing 5 of its 91 columns.</sub>
+
+</details>
+
+<details>
+<summary><code>Railway_Stations_in_Hyderabad.xlsx</code></summary>
+
+| name | operator | network | railway | Kind of Railway |
+|---|---|---|---|---|
+| Khairatabad | SCR | IR | station | Suburban/Local Rail |
+| Necklace Road | SCR | IR | station | Suburban/Local Rail |
+| Hyderabad Deccan Nampally | SCR | IR | station | Suburban/Local Rail |
+| Malakpet | SCR | IR | station | Suburban/Local Rail |
+| Kacheguda | SCR | IR | station | Suburban/Local Rail |
+
+<sub>97 rows in total; the `geometry` column (ward shapes) is left out; showing 5 of its 50 columns.</sub>
+
+</details>
+
+<details>
+<summary><code>Railway_Stations_in_Jaipur.xlsx</code></summary>
+
+| name | operator | network | railway | Kind of Railway |
+|---|---|---|---|---|
+| Getor Jagatpura | NWR | IR | station | Suburban/Local Rail |
+| Dahar-Ka-Balaji | NWR | IR | station | Suburban/Local Rail |
+| Ambabadi Metro (u/c) | Jaipur Metro Rail Corporation Limited | Jaipur Metro | station | Subway |
+| Gandhi Nagar Jaipur | North Western Railway | Indian Railways | station | Suburban/Local Rail |
+| Bais Godam | NWR | IR | station | Suburban/Local Rail |
+
+<sub>24 rows in total; the `geometry` column (ward shapes) is left out; showing 5 of its 36 columns.</sub>
+
+</details>
+
+<details>
+<summary><code>Railway_Stations_in_Kolkata.xlsx</code></summary>
+
+| name | operator | network | railway | Kind of Railway |
+|---|---|---|---|---|
+| Sealdah | ER | IR | station | Suburban/Local Rail |
+| Baghajatin | ER | IR | station | Suburban/Local Rail |
+| Ballygunge Junction | ER | IR | station | Suburban/Local Rail |
+| Sovabazar Ahiritola | ER | IR | station | Suburban/Local Rail |
+| Eden Gardens | ER | IR | station | Suburban/Local Rail |
+
+<sub>68 rows in total; the `geometry` column (ward shapes) is left out; showing 5 of its 48 columns.</sub>
+
+</details>
+
+<details>
+<summary><code>Railway_Stations_in_Mumbai.xlsx</code></summary>
+
+| name | operator | network | railway | Kind of Railway |
+|---|---|---|---|---|
+| Dahisar | WR | Mumbai Suburban Railway | station | Suburban/Local Rail |
+| Santa Cruz | WR | Mumbai Suburban Railway | station | Suburban/Local Rail |
+| Khar Road | WR | Mumbai Suburban Railway | station | Suburban/Local Rail |
+| Kanjur Marg | CR | IR | station | Suburban/Local Rail |
+| Vidyavihar | CR | IR | station | Suburban/Local Rail |
+
+<sub>158 rows in total; the `geometry` column (ward shapes) is left out; showing 5 of its 79 columns.</sub>
+
+</details>
+<!-- preview:end -->
+
 **🗺️ Sample maps**
 
 | | |
