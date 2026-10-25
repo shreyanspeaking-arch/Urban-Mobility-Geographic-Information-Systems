@@ -72,7 +72,7 @@ Finds every railway station inside a city's wards using OpenStreetMap data, lets
 | Sabarmati | WR | IR | station | Suburban/Local Rail |
 | Asarva | WR | IR | station | Suburban/Local Rail |
 
-<sub>48 rows in total; the `geometry` column (ward shapes) is left out; showing 5 of its 32 columns.</sub>
+<sub>48 rows in total; the `geometry` column (station locations) is left out; showing 5 of its 32 columns.</sub>
 
 </details>
 
@@ -87,7 +87,7 @@ Finds every railway station inside a city's wards using OpenStreetMap data, lets
 | Nayandahalli | SWR | IR | station | Suburban/Local Rail |
 | Chikka Banavara | SWR | IR | station | Suburban/Local Rail |
 
-<sub>94 rows in total; the `geometry` column (ward shapes) is left out; showing 5 of its 46 columns.</sub>
+<sub>94 rows in total; the `geometry` column (station locations) is left out; showing 5 of its 46 columns.</sub>
 
 </details>
 
@@ -102,7 +102,7 @@ Finds every railway station inside a city's wards using OpenStreetMap data, lets
 | Chennai Park Town | SR | IR | station | Suburban/Local Rail |
 | Chennai Park | SR | IR | station | Suburban/Local Rail |
 
-<sub>131 rows in total; the `geometry` column (ward shapes) is left out; showing 5 of its 44 columns.</sub>
+<sub>131 rows in total; the `geometry` column (station locations) is left out; showing 5 of its 44 columns.</sub>
 
 </details>
 
@@ -117,7 +117,7 @@ Finds every railway station inside a city's wards using OpenStreetMap data, lets
 | Rithala | Delhi Metro Rail Corporation Limited | Delhi Metro | station | Subway |
 | Pratap Nagar | Delhi Metro Rail Corporation Limited | Delhi Metro | station | Subway |
 
-<sub>267 rows in total; the `geometry` column (ward shapes) is left out; showing 5 of its 91 columns.</sub>
+<sub>267 rows in total; the `geometry` column (station locations) is left out; showing 5 of its 91 columns.</sub>
 
 </details>
 
@@ -132,7 +132,7 @@ Finds every railway station inside a city's wards using OpenStreetMap data, lets
 | Malakpet | SCR | IR | station | Suburban/Local Rail |
 | Kacheguda | SCR | IR | station | Suburban/Local Rail |
 
-<sub>97 rows in total; the `geometry` column (ward shapes) is left out; showing 5 of its 50 columns.</sub>
+<sub>97 rows in total; the `geometry` column (station locations) is left out; showing 5 of its 50 columns.</sub>
 
 </details>
 
@@ -147,7 +147,7 @@ Finds every railway station inside a city's wards using OpenStreetMap data, lets
 | Gandhi Nagar Jaipur | North Western Railway | Indian Railways | station | Suburban/Local Rail |
 | Bais Godam | NWR | IR | station | Suburban/Local Rail |
 
-<sub>24 rows in total; the `geometry` column (ward shapes) is left out; showing 5 of its 36 columns.</sub>
+<sub>24 rows in total; the `geometry` column (station locations) is left out; showing 5 of its 36 columns.</sub>
 
 </details>
 
@@ -162,7 +162,7 @@ Finds every railway station inside a city's wards using OpenStreetMap data, lets
 | Sovabazar Ahiritola | ER | IR | station | Suburban/Local Rail |
 | Eden Gardens | ER | IR | station | Suburban/Local Rail |
 
-<sub>68 rows in total; the `geometry` column (ward shapes) is left out; showing 5 of its 48 columns.</sub>
+<sub>68 rows in total; the `geometry` column (station locations) is left out; showing 5 of its 48 columns.</sub>
 
 </details>
 
@@ -177,7 +177,7 @@ Finds every railway station inside a city's wards using OpenStreetMap data, lets
 | Kanjur Marg | CR | IR | station | Suburban/Local Rail |
 | Vidyavihar | CR | IR | station | Suburban/Local Rail |
 
-<sub>158 rows in total; the `geometry` column (ward shapes) is left out; showing 5 of its 79 columns.</sub>
+<sub>158 rows in total; the `geometry` column (station locations) is left out; showing 5 of its 79 columns.</sub>
 
 </details>
 <!-- preview:end -->
