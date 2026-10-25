@@ -56,6 +56,100 @@ Counts the healthcare facilities in every ward of a city, using OpenStreetMap da
 | [`kolkata_wards_141.gpkg`](https://github.com/shreyanspeaking-arch/Urban-Mobility-Geographic-Information-Systems/blob/Input-gpkg-files/kolkata_wards_141.gpkg) | [`Kolkata_Healthcare_Facilities_by_Ward.xlsx`](./Kolkata_Healthcare_Facilities_by_Ward.xlsx)<br>[`Kolkata Healthcare Facilities by Number in each Ward.png`](./Kolkata%20Healthcare%20Facilities%20by%20Number%20in%20each%20Ward.png)<br>[`Kolkata Healthcare Facilities by Ward Area.png`](./Kolkata%20Healthcare%20Facilities%20by%20Ward%20Area.png) |
 | [`mumbai_electoral_wards_2017.gpkg`](https://github.com/shreyanspeaking-arch/Urban-Mobility-Geographic-Information-Systems/blob/Input-gpkg-files/mumbai_electoral_wards_2017.gpkg) | [`Mumbai_Healthcare_Facilities_by_Ward.xlsx`](./Mumbai_Healthcare_Facilities_by_Ward.xlsx)<br>[`Mumbai Healthcare Facilities by Number in each Ward.png`](./Mumbai%20Healthcare%20Facilities%20by%20Number%20in%20each%20Ward.png)<br>[`Mumbai Healthcare Facilities by Ward Area.png`](./Mumbai%20Healthcare%20Facilities%20by%20Ward%20Area.png) |
 
+<!-- preview:start -->
+**📋 First five rows**
+
+<details>
+<summary><code>Ahmedabad_Healthcare_Facilities_by_Ward.xlsx</code></summary>
+
+| ward | Count | Area (in m2) | Area (in km2) | Density |
+|---|---|---|---|---|
+| 48 RAMOL HATHIJAN | 5 | 30786045.509 | 30.786 | 0.162 |
+| 47 VATVA | 24 | 11306182.516 | 11.306 | 2.123 |
+| 46 LAMBHA | 16 | 48163155.266 | 48.163 | 0.332 |
+| 45 ISANPUR | 47 | 4092708.236 | 4.093 | 11.484 |
+| 44 KHOKHRA | 17 | 3588188.239 | 3.588 | 4.738 |
+
+<sub>48 rows in total; the `geometry` column (ward shapes) is left out.</sub>
+
+</details>
+
+<details>
+<summary><code>Bengaluru_Healthcare_Facilities_by_Ward.xlsx</code></summary>
+
+| ward | Count | Area (in m2) | Area (in km2) | Density |
+|---|---|---|---|---|
+| 1 | 41 | 11373055.257 | 11.373 | 3.605 |
+| 2 | 5 | 6960329.536 | 6.96 | 0.718 |
+| 3 | 42 | 3867141.054 | 3.867 | 10.861 |
+| 4 | 16 | 5146416.14 | 5.146 | 3.109 |
+| 5 | 33 | 4048418.451 | 4.048 | 8.151 |
+
+<sub>243 rows in total; the `geometry` column (ward shapes) is left out.</sub>
+
+</details>
+
+<details>
+<summary><code>Chennai_Healthcare_Facilities_by_Ward.xlsx</code></summary>
+
+| ward | Count | Area (in m2) | Area (in km2) | Density |
+|---|---|---|---|---|
+| 119 | 9 | 1381005.254 | 1.381 | 6.517 |
+| 7 | 0 | 7735900.17 | 7.736 | 0 |
+| 26 | 4 | 4809087.648 | 4.809 | 0.832 |
+| 174 | 7 | 8340795.421 | 8.341 | 0.839 |
+| 132 | 18 | 1403502.758 | 1.404 | 12.825 |
+
+<sub>201 rows in total; the `geometry` column (ward shapes) is left out.</sub>
+
+</details>
+
+<details>
+<summary><code>Delhi_Healthcare_Facilities_by_Ward.xlsx</code></summary>
+
+| ward | Count | Area (in m2) | Area (in km2) | Density |
+|---|---|---|---|---|
+| CANT_1 | 1 | 1274680.409 | 1.275 | 0.785 |
+| CANT_2 | 3 | 8760167.474 | 8.76 | 0.342 |
+| CANT_4 | 6 | 8382204.276 | 8.382 | 0.716 |
+| CANT_5 | 0 | 3493525.693 | 3.494 | 0 |
+| CANT_6 | 9 | 15247664.011 | 15.248 | 0.59 |
+
+<sub>290 rows in total; the `geometry` column (ward shapes) is left out.</sub>
+
+</details>
+
+<details>
+<summary><code>Kolkata_Healthcare_Facilities_by_Ward.xlsx</code></summary>
+
+| ward | Count | Area (in m2) | Area (in km2) | Density |
+|---|---|---|---|---|
+| 93 | 6 | 1867950.649 | 1.868 | 3.212 |
+| 61 | 4 | 642597.239 | 0.643 | 6.225 |
+| 86 | 11 | 887935.917 | 0.888 | 12.388 |
+| 90 | 6 | 1145646.051 | 1.146 | 5.237 |
+| 26 | 0 | 352579.077 | 0.353 | 0 |
+
+<sub>141 rows in total; the `geometry` column (ward shapes) is left out.</sub>
+
+</details>
+
+<details>
+<summary><code>Mumbai_Healthcare_Facilities_by_Ward.xlsx</code></summary>
+
+| ward | Count | Area (in m2) | Area (in km2) | Density |
+|---|---|---|---|---|
+| 227 | 5 | 3245346.262 | 3.245 | 1.541 |
+| 225 | 27 | 4778852.65 | 4.779 | 5.65 |
+| 224 | 5 | 1073583.608 | 1.074 | 4.657 |
+| 226 | 7 | 3175394.776 | 3.175 | 2.204 |
+| 208 | 8 | 1653071.115 | 1.653 | 4.839 |
+
+<sub>227 rows in total; the `geometry` column (ward shapes) is left out.</sub>
+
+</details>
+<!-- preview:end -->
+
 **🗺️ Sample maps**
 
 | City | Number of facilities in each ward | Facilities per km² |
