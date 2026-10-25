@@ -55,6 +55,130 @@ Computes the perimeter of every ward in a city from a ward-boundary file, saves 
 | [`kolkata_wards_141.gpkg`](https://github.com/shreyanspeaking-arch/Urban-Mobility-Geographic-Information-Systems/blob/Input-gpkg-files/kolkata_wards_141.gpkg) | [`kolkata.xlsx`](./kolkata.xlsx)<br>[`kolkata.png`](./kolkata.png) |
 | [`mumbai_electoral_wards_2017.gpkg`](https://github.com/shreyanspeaking-arch/Urban-Mobility-Geographic-Information-Systems/blob/Input-gpkg-files/mumbai_electoral_wards_2017.gpkg) | [`mumbai.xlsx`](./mumbai.xlsx)<br>[`mumbai.png`](./mumbai.png) |
 
+<!-- preview:start -->
+**📋 First five rows**
+
+<details>
+<summary><code>ahmedabad.xlsx</code></summary>
+
+| WARD | Perimeter (in km) |
+|---|---|
+| 48 RAMOL HATHIJAN | 35.69 |
+| 47 VATVA | 20.886 |
+| 46 LAMBHA | 37.993 |
+| 45 ISANPUR | 9.703 |
+| 44 KHOKHRA | 14.23 |
+
+<sub>48 rows in total.</sub>
+
+</details>
+
+<details>
+<summary><code>bengaluru.xlsx</code></summary>
+
+| WARD | Perimeter (in km) |
+|---|---|
+| 1 | 21.201 |
+| 2 | 14.594 |
+| 3 | 11.415 |
+| 4 | 13.204 |
+| 5 | 9.671 |
+
+<sub>243 rows in total.</sub>
+
+</details>
+
+<details>
+<summary><code>chennai.xlsx</code></summary>
+
+| WARD | Perimeter (in km) |
+|---|---|
+| 119 | 6.825 |
+| 7 | 13.696 |
+| 26 | 10.691 |
+| 174 | 13.382 |
+| 132 | 5.641 |
+
+<sub>201 rows in total.</sub>
+
+</details>
+
+<details>
+<summary><code>delhi.xlsx</code></summary>
+
+| WARD | Perimeter (in km) |
+|---|---|
+| DELHI CANTT CHARGE 1 | 5.923 |
+| DELHI CANTT CHARGE 2 | 16.078 |
+| DELHI CANTT CHARGE 4 | 22.826 |
+| DELHI CANTT CHARGE 5 | 8.39 |
+| DELHI CANTT CHARGE 6 | 23.218 |
+
+<sub>290 rows in total.</sub>
+
+</details>
+
+<details>
+<summary><code>hyderabad.xlsx</code></summary>
+
+| WARD | Perimeter (in km) |
+|---|---|
+| Ward 91 Khairatabad | 19.021 |
+| Ward 105 Gachibowli | 36.727 |
+| Ward 60 Rajendra Nagar | 30.004 |
+| Ward 95 Jubilee Hills | 20.038 |
+| Ward 6 Nacharam | 11.556 |
+
+<sub>145 rows in total.</sub>
+
+</details>
+
+<details>
+<summary><code>jaipur.xlsx</code></summary>
+
+| WARD | Perimeter (in km) |
+|---|---|
+| 76 | 19.262 |
+| 34 | 34.831 |
+| 11 | 21.227 |
+| 12 | 25.853 |
+| 13 | 13.501 |
+
+<sub>77 rows in total.</sub>
+
+</details>
+
+<details>
+<summary><code>kolkata.xlsx</code></summary>
+
+| WARD | Perimeter (in km) |
+|---|---|
+| 93 | 6.486 |
+| 61 | 3.568 |
+| 86 | 5.597 |
+| 90 | 6.235 |
+| 26 | 2.856 |
+
+<sub>141 rows in total.</sub>
+
+</details>
+
+<details>
+<summary><code>mumbai.xlsx</code></summary>
+
+| WARD | Perimeter (in km) |
+|---|---|
+| A | 12.437 |
+| A | 15.809 |
+| B | 5.652 |
+| A | 8.338 |
+| E | 7.126 |
+
+<sub>227 rows in total.</sub>
+
+</details>
+<!-- preview:end -->
+
 **🗺️ Sample maps**
 
 | | |
