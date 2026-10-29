@@ -10,7 +10,7 @@
 
 **Python programs that map and measure the wards of Indian cities: ward area, ward perimeter, road density, the number and density of healthcare and education facilities, and the railway stations serving each ward, drawn as choropleth maps from ward-boundary GeoPackages.**
 
-![Python](https://img.shields.io/badge/Python-3-3776AB?logo=python&logoColor=white) ![Programs](https://img.shields.io/badge/programs-6-2ea44f) ![Topics](https://img.shields.io/badge/topic%20branches-6-blue) ![Cities](https://img.shields.io/badge/sample%20cities-8-purple) ![Updated](https://img.shields.io/badge/updated-12%20Oct%202026-orange)
+![Python](https://img.shields.io/badge/Python-3-3776AB?logo=python&logoColor=white) ![Programs](https://img.shields.io/badge/programs-6-2ea44f) ![Topics](https://img.shields.io/badge/topic%20branches-6-blue) ![Cities](https://img.shields.io/badge/sample%20cities-8-purple) ![Updated](https://img.shields.io/badge/updated-29%20Oct%202026-orange)
 
 </div>
 
