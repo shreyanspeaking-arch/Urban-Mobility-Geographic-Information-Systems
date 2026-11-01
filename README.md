@@ -38,8 +38,16 @@ Computes the perimeter of every ward in a city from a ward-boundary file, saves 
 
 **🧰 Prerequisites**
 
-- **Python 3** with `geopandas`, `pandas`, `matplotlib`, `openpyxl`: `pip install geopandas pandas matplotlib openpyxl`
-- **Data to have ready:** a ward-boundary file (`.gpkg`, or any format geopandas can read) with a column holding the ward names or numbers, such as one from the [Input gpkg files](https://github.com/shreyanspeaking-arch/Urban-Mobility-Geographic-Information-Systems/tree/Input-gpkg-files) branch, placed in the same folder as the program
+- **Software**
+  - Python 3
+  - `geopandas`
+  - `pandas`
+  - `matplotlib`
+  - `openpyxl`
+  - Install the packages with `pip install geopandas pandas matplotlib openpyxl`
+- **Data to have ready**
+  - A ward-boundary file (`.gpkg`, or any format geopandas can read) in the same folder as the program, such as one from the [Input gpkg files](https://github.com/shreyanspeaking-arch/Urban-Mobility-Geographic-Information-Systems/tree/Input-gpkg-files) branch
+  - The name of the column in that file holding the ward names or numbers
 
 **How it works**
 
