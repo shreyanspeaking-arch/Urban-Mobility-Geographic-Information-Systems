@@ -36,6 +36,12 @@ Every program is interactive: it asks for its inputs one at a time in the termin
 
 Counts the educational institutes in every ward of a city, using OpenStreetMap data, works out how many there are per km² of each ward, saves the results to Excel, and draws two choropleth maps: one of the number of educational institutes in each ward and one of their density.
 
+**🧰 Prerequisites**
+
+- **Python 3** with `geopandas`, `osmnx`, `pandas`, `numpy`, `matplotlib`, `openpyxl`: `pip install geopandas osmnx pandas numpy matplotlib openpyxl`
+- **An internet connection**, because the program downloads data from OpenStreetMap
+- **Data to have ready:** a ward-boundary file (`.gpkg`, or any format geopandas can read) with a column holding the ward names or numbers, such as one from the [Input gpkg files](https://github.com/shreyanspeaking-arch/Urban-Mobility-Geographic-Information-Systems/tree/Input-gpkg-files) branch, placed in the same folder as the program
+
 **How it works**
 
 1. The user enters the name of a ward-boundary file, such as a `.gpkg` file from the [Input gpkg files](https://github.com/shreyanspeaking-arch/Urban-Mobility-Geographic-Information-Systems/tree/Input-gpkg-files) branch. The program lists the file's columns and asks which one holds the ward name or number. If the file has no `geometry` column, it also asks which column holds the ward shapes.
