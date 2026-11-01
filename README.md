@@ -45,9 +45,12 @@ Computes the area of every ward in a city from a ward-boundary file, saves the l
   - `matplotlib`
   - `openpyxl`
   - Install the packages with `pip install geopandas pandas matplotlib openpyxl`
+- **Choices you will be asked to make** (type the value shown)
+  - Ward column: asked only if the file has no `WARD` column; type the column name shown in the list (see the column guide in the Input gpkg files README)
+  - Shape column: asked only if the file has no `geometry` column
 - **Data to have ready**
-  - A ward-boundary file (`.gpkg`, or any format geopandas can read) in the same folder as the program, such as one from the [Input gpkg files](https://github.com/shreyanspeaking-arch/Urban-Mobility-Geographic-Information-Systems/tree/Input-gpkg-files) branch
-  - The name of the column in that file holding the ward names or numbers
+  - A ward-boundary file (`.gpkg`, or any format geopandas can read) in the same folder as the program, such as one from the [Input gpkg files](https://github.com/shreyanspeaking-arch/Urban-Mobility-Geographic-Information-Systems/tree/Input-gpkg-files) branch; you type its full file name, e.g. `kolkata_wards_141.gpkg`
+  - A name for the output Excel file, typed without `.xlsx`
 
 **How it works**
 
