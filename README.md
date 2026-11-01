@@ -36,6 +36,11 @@ Every program is interactive: it asks for its inputs one at a time in the termin
 
 Computes the perimeter of every ward in a city from a ward-boundary file, saves the list of wards and their perimeters to Excel, and draws a choropleth map of the wards shaded by perimeter.
 
+**🧰 Prerequisites**
+
+- **Python 3** with `geopandas`, `pandas`, `matplotlib`, `openpyxl`: `pip install geopandas pandas matplotlib openpyxl`
+- **Data to have ready:** a ward-boundary file (`.gpkg`, or any format geopandas can read) with a column holding the ward names or numbers, such as one from the [Input gpkg files](https://github.com/shreyanspeaking-arch/Urban-Mobility-Geographic-Information-Systems/tree/Input-gpkg-files) branch, placed in the same folder as the program
+
 **How it works**
 
 1. The user enters the name of a ward-boundary file, such as a `.gpkg` file from the [Input gpkg files](https://github.com/shreyanspeaking-arch/Urban-Mobility-Geographic-Information-Systems/tree/Input-gpkg-files) branch. If the file has no `WARD` column, the program lists its columns and asks which one holds the ward name or number; it does the same for the geometry column.
